@@ -1,0 +1,8 @@
+# Over GitHub's 100 MB file limit
+*.pt
+
+# Embedding caches written by the frozen notebooks and scripts, up to 189 MB each
+frozen/*.npz
+
+__pycache__/
+.ipynb_checkpoints/
