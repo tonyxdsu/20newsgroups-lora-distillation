@@ -23,8 +23,7 @@ HERE = Path(__file__).resolve().parent
 # Colors from a validated palette, light chart surface (the same one as ../frozen/make_frozen_results.py)
 SURFACE, INK, INK_2, MUTED = "#fcfcfb", "#0b0b0b", "#52514e", "#898781"
 GRID, AXIS = "#e1e0d9", "#c3c2b7"
-BLUE, ORANGE, AQUA = "#2a78d6", "#eb6834", "#1baf7a"
-NO_ENCODER, FROZEN, TRAINED, DISTILLED, PUBLISHED = MUTED, BLUE, ORANGE, AQUA, INK_2
+COLOR = "#2a78d6"
 plt.rcParams.update({
     "figure.facecolor": SURFACE, "axes.facecolor": SURFACE, "savefig.facecolor": SURFACE,
     "font.size": 9, "text.color": INK, "axes.labelcolor": INK_2, "axes.titlesize": 9,
@@ -39,27 +38,27 @@ def estimated(reported, total=7532, empty=162, guess_rate=0.05):
     return (reported / 100 * total - guess_rate * empty) / (total - empty) * 100
 
 
-# (section title, color of its rows, rows). A row is (label, 20NG: one run or mean of seeds, 20NG: ensemble, baseball vs.
-# hockey). Optional: key=True prints the row in bold, untuned=True draws a hollow dot, approx=True prints "≈", and
-# color=... overrides the section's color. BoW + LR is the better of unigram and unigram + bigram features.
+# (section title, rows). A row is (label, 20NG: one run or mean of seeds, 20NG: ensemble, baseball vs. hockey).
+# Optional: key=True prints the row in bold, untuned=True draws a hollow dot, approx=True prints "≈".
+# BoW + LR is the better of unigram and unigram + bigram features.
 def row(label, single, ensemble=None, sports=None, **flags):
     return dict(label=label, single=single, ensemble=ensemble, sports=sports, **flags)
 
 
 SECTIONS = [
-    ("1  Assignment models", NO_ENCODER, [
+    ("1  Assignment models", [
         row("BoW counts + LR", 64.45, sports=89.06),
         row("BoW counts + Naive Bayes", 64.08, sports=91.12),
         row("CBoW (average word vector) + LR", 64.55, sports=91.51),
-        row("Frozen RoBERTa <s> + LR, first 128 tokens", 64.75, sports=91.25, key=True, color=FROZEN),
+        row("Frozen RoBERTa <s> + LR, first 128 tokens", 64.75, sports=91.25, key=True),
     ]),
-    ("2  Frozen RoBERTa-base, first 512 tokens", FROZEN, [
+    ("2  Frozen RoBERTa-base, first 512 tokens", [
         row("<s> + LR", 67.23, sports=91.63),
         row("<s> + MLP", 68.33, sports=92.92, key=True),
         row("Mean of all tokens + LR", 66.13, sports=89.83),
         row("Mean of all tokens + MLP", 67.23, sports=91.38),
     ]),
-    ("3  Other frozen encoders", FROZEN, [
+    ("3  Other frozen encoders", [
         row("ModernBERT-base [CLS] + LR", 57.26, sports=78.51),
         row("ModernBERT-base [CLS] + MLP", 57.75, sports=76.32, untuned=True),
         row("ModernBERT-base mean + LR", 64.92, sports=88.16),
@@ -69,19 +68,19 @@ SECTIONS = [
         row("Qwen3-Embedding-4B + LR", 77.39, sports=95.24, key=True),
         row("Qwen3-Embedding-4B + MLP", 77.54, sports=94.72, untuned=True),
     ]),
-    ("4  Frozen Qwen3-Embedding-4B, input tuned", FROZEN, [
+    ("4  Frozen Qwen3-Embedding-4B, input tuned", [
         row("2,048 tokens + LR", 77.69),
         row("2,048 tokens + MLP", 78.07, 78.11),
         row("2,048 tokens, new instruction + LR", 78.00),
         row("2,048 tokens, new instruction + MLP", 78.80, 78.97, key=True),
     ]),
-    ("5  Fine-tuned RoBERTa-base (all weights)", TRAINED, [
+    ("5  Fine-tuned RoBERTa-base (all weights)", [
         row("BERT recipe, linear head, 3 runs", 72.28),
         row("BERT recipe, HF head, 1 run", 71.26),
         row("RoBERTa recipe, 1 run (kept epoch 3)", 71.37),
         row("RoBERTa recipe, 3 seeds", 73.13, 73.93, sports=93.18, key=True),
     ]),
-    ("6  LoRA", TRAINED, [
+    ("6  LoRA", [
         row("RoBERTa-base, rank 4", 72.75, 74.48),
         row("RoBERTa-base, rank 16", 73.29, 75.07, key=True),
         row("RoBERTa-base, rank 64", 73.41, 74.91),
@@ -89,7 +88,7 @@ SECTIONS = [
         row("Qwen3-Embedding-4B, lr 1e-4", 78.67, 79.73, key=True),
         row("Qwen3-Embedding-4B, lr 2e-4 (picked using test)", 79.19, 80.56),
     ]),
-    ("7  RoBERTa-base distilled from Qwen", DISTILLED, [
+    ("7  RoBERTa-base distilled from Qwen", [
         row("Teacher: LoRA Qwen, T = 2", 73.15, 74.02),
         row("Teacher: LoRA Qwen, T = 4 (run afterwards)", 73.44, 74.30),
         row("Teacher: frozen Qwen + LR, out of fold", 74.77, 75.29, key=True),
@@ -97,7 +96,7 @@ SECTIONS = [
         row("Teacher: frozen Qwen + MLP, out of fold", 74.32, 75.03),
         row("Control: label smoothing, no teacher", 73.09, 74.19),
     ]),
-    ("Published, same setup", PUBLISHED, [
+    ("Published, same setup", [
         row("LoRA Qwen3-8B, 4-bit (Sada et al.)", 77.75),                       # rescored from their predictions
         row("Kimi-K2, zero-shot, 494 posts (Sada et al.)", 77.33),              # same
         row("CNN + word-class embeddings (Moreo et al.)", estimated(71.7), approx=True),
@@ -113,11 +112,11 @@ PANELS = [("Full 20 Newsgroups\n20 classes, 7,370 test posts (1 point ≈ 74)", 
 
 # y positions top to bottom: a line for each section's title, a line per row, a small gap between sections
 items, y = [], 0.0
-for title, color, rows in SECTIONS:
+for title, rows in SECTIONS:
     items.append(("title", y, title))
     y -= 0.95
     for r in rows:
-        items.append(("row", y, {"color": color} | r))
+        items.append(("row", y, r))
         y -= 1
     y -= 0.45
 rows = [(yy, r) for kind, yy, r in items if kind == "row"]
@@ -138,9 +137,9 @@ def value(a, x, side, approx=False, bold=False):
 
 def dot(a, x, r):
     if r.get("untuned"):
-        a.scatter(x, yy, s=34, facecolor=SURFACE, edgecolor=r["color"], linewidth=1.6, zorder=3)
+        a.scatter(x, yy, s=34, facecolor=SURFACE, edgecolor=COLOR, linewidth=1.6, zorder=3)
     else:
-        a.scatter(x, yy, s=46, color=r["color"], edgecolor=SURFACE, linewidth=1.0, zorder=3)
+        a.scatter(x, yy, s=46, color=COLOR, edgecolor=SURFACE, linewidth=1.0, zorder=3)
 
 
 # A thin reference line: everything right of it beats the best published result on these posts
@@ -151,8 +150,8 @@ for yy, r in rows:
     if r["ensemble"] is None:
         value(ax, r["single"], "right", r.get("approx", False), bold)
     else:
-        ax.plot([r["single"], r["ensemble"]], [yy, yy], color=r["color"], linewidth=1.3, zorder=2, solid_capstyle="butt")
-        ax.scatter(r["ensemble"], yy, s=44, marker="D", color=r["color"], edgecolor=SURFACE, linewidth=1.0, zorder=3)
+        ax.plot([r["single"], r["ensemble"]], [yy, yy], color=COLOR, linewidth=1.3, zorder=2, solid_capstyle="butt")
+        ax.scatter(r["ensemble"], yy, s=44, marker="D", color=COLOR, edgecolor=SURFACE, linewidth=1.0, zorder=3)
         value(ax, r["single"], "left", bold=bold)
         value(ax, r["ensemble"], "right", bold=bold)
     if r["sports"] is not None:
@@ -188,16 +187,11 @@ ax2.text(0.04, last_sports_y - 1.5, "Everything below was run on\n20 classes onl
          transform=ax2.get_yaxis_transform(), va="top", bbox=dict(boxstyle="square,pad=0.15", fc=SURFACE, ec="none"))
 
 fig.legend(handles=[
-    Line2D([], [], marker="o", linestyle="", markersize=6.5, color=MUTED, label="One run or mean of seeds"),
-    Line2D([], [], marker="D", linestyle="", markersize=5.5, color=MUTED, label="Ensemble of those seeds"),
-    Line2D([], [], marker="o", linestyle="", markersize=6, markerfacecolor=SURFACE, markeredgecolor=MUTED,
+    Line2D([], [], marker="o", linestyle="", markersize=6.5, color=COLOR, label="One run or mean of seeds"),
+    Line2D([], [], marker="D", linestyle="", markersize=5.5, color=COLOR, label="Ensemble of those seeds"),
+    Line2D([], [], marker="o", linestyle="", markersize=6, markerfacecolor=SURFACE, markeredgecolor=COLOR,
            markeredgewidth=1.5, label="MLP with RoBERTa's settings (not tuned for these features)"),
-    Line2D([], [], marker="o", linestyle="", markersize=6.5, color=FROZEN, label="Frozen encoder"),
-    Line2D([], [], marker="o", linestyle="", markersize=6.5, color=TRAINED, label="Encoder trained on the labels"),
-    Line2D([], [], marker="o", linestyle="", markersize=6.5, color=DISTILLED, label="Trained on labels + a teacher"),
-    Line2D([], [], marker="o", linestyle="", markersize=6.5, color=NO_ENCODER, label="No encoder"),
-    Line2D([], [], marker="o", linestyle="", markersize=6.5, color=PUBLISHED, label="Published"),
-], loc="upper center", bbox_to_anchor=(0.42, 0.055), ncol=4, frameon=False, fontsize=8.5, columnspacing=1.6,
+], loc="upper center", bbox_to_anchor=(0.42, 0.04), ncol=3, frameon=False, fontsize=8.5, columnspacing=1.6,
     handletextpad=0.3)
 
 fig.savefig(HERE / "all_results.png", dpi=200, bbox_inches="tight")

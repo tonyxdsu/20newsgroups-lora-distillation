@@ -5,7 +5,7 @@ An extension of Assignment 2 in UBC's CPSC 423, Natural Language Processing (act
 **Result: 64.75% → 79.73%.** That's from the assignment's frozen RoBERTa + logistic regression (LR) to an ensemble of 3 LoRA-fine-tuned Qwen3-Embedding-4B models. The best published result I found on the same posts is 77.75%.
 
 - **The encoder mattered most.** Swapping it gained 10 points. Tuning the classifier on top gained about 1.
-- **Averaging seeds beat tuning.** For LoRA, averaging 3 seeds gained 1.1 to 1.8 points, while changing Qwen's learning rate or RoBERTa's rank never moved a 3-seed mean by 1 point.
+- **Fine-tuning helped RoBERTa a lot, but barely helped Qwen.** A full fine-tune gained RoBERTa 4.8 points. LoRA, the only option for Qwen on this GPU, practically tied its frozen model.
 - **A less accurate teacher taught better.** Distilling into RoBERTa gained nothing from a 78.68% teacher that had memorized its training posts, and 1.64 points from a 77.72% teacher that hadn't.
 
 ![Test accuracy of every model, from the assignment's models at about 64% to LoRA Qwen3-Embedding-4B at 79.73%](figures/all_results.png)
@@ -33,7 +33,7 @@ An extension of Assignment 2 in UBC's CPSC 423, Natural Language Processing (act
 **6. LoRA: 78.67, ensemble 79.73.** Fully fine-tuning Qwen's 4 billion weights would take about 68 GB, at 16 bytes per weight (32-bit weight, gradient, AdamW's two averages). LoRA ([Hu et al. 2022](https://arxiv.org/abs/2106.09685)) freezes them and trains small low-rank matrices beside them: rank 16 on all 7 projection matrices of all 36 layers, 0.8% of the weights, 9.6 GB peak.
 - **It practically tied the frozen model.** The ensemble is my best result, but leads the frozen ensemble by only 0.76 (p = 0.018).
 - **LoRA wasn't the limit, at least on RoBERTa,** where a full fine-tune fits. LoRA tied it (73.29 vs. 73.13) training 2.6% of the weights, and its ensemble was better (75.07 vs. 73.93, p = 0.0004), since its seeds disagree more.
-- **Tuning moved nothing.** Qwen's learning rate and RoBERTa's rank each moved the 3-seed mean by under 1 point, while the seed alone moved a run by up to 1.2.
+- **Tuning moved nothing.** Qwen's learning rate and RoBERTa's rank each moved the 3-seed mean by under 1 point, while the seed alone moved a run by up to 1.2. Averaging 3 seeds gained more: 1.1 to 1.8 points.
 
 **7. Distill Qwen into RoBERTa: 74.77, ensemble 75.29.** Can a model with 1/32 of the weights inherit Qwen's edge? Distillation ([Hinton et al. 2015](https://arxiv.org/abs/1503.02531)) trains a student on the teacher's full probability distribution, whose small probabilities say what a post resembles: a Mac hardware post is more like PC hardware than hockey. That's often called "dark knowledge", from Hinton's [2014 talk](https://www.ttic.edu/dl/dark14.pdf); the paper itself says "relative probabilities of incorrect answers".
 - **LoRA Qwen as the teacher: no effect** (73.15 vs. 73.13 plain). It had memorized the posts it was labeling: 98.2% right, with a median of 1.6% of the probability off the true class at T = 2. Its soft labels were nearly the hard ones.
