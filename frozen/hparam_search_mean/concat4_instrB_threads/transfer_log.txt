@@ -1,0 +1,6 @@
+07:27:43  ../qwen3_4b_2048_instrB_last_20ng.npz + ../qwen3_0.6b_last_20ng.npz + ../roberta_cls_20ng.npz + ../modernbert_mean_20ng.npz: (11096, 5120), thread-grouped folds
+07:29:58  [ref    ]  79.98 +- 0.94  ep  11.4  seed 0    2048/64  drop 0.2/0.7/0.5  lr 0.0001  wd 0.01  ls 0.1
+07:29:58  [ref    ]  80.42 +- 1.00  ep  11.4  seed 1    2048/64  drop 0.2/0.7/0.5  lr 0.0001  wd 0.01  ls 0.1
+07:29:58  [ref    ]  79.90 +- 1.11  ep  10.6  seed 2    2048/64  drop 0.2/0.7/0.5  lr 0.0001  wd 0.01  ls 0.1
+07:29:58            group of 15 models: 26 epochs in 127 s
+07:29:58  80.10    2048/64  drop 0.2/0.7/0.5  lr 0.0001  wd 0.01  ls 0.1

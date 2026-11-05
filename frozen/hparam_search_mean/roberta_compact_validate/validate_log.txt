@@ -1,0 +1,11 @@
+05:06:40  roberta_cls_20ng.npz: (11096, 768), 277 batches per epoch. 0 runs already done.
+05:07:58  [validate]  72.94 +- 0.90  ep  79.8  seed 0    2048/64  drop 0.2/0.7/0.5  lr 0.0001  wd 0.01  ls 0.1
+05:07:58  [validate]  72.83 +- 0.99  ep  69.0  seed 1    2048/64  drop 0.2/0.7/0.5  lr 0.0001  wd 0.01  ls 0.1
+05:07:58  [validate]  72.96 +- 1.37  ep  84.6  seed 2    2048/64  drop 0.2/0.7/0.5  lr 0.0001  wd 0.01  ls 0.1
+05:07:58            group of 15 models: 123 epochs in 77 s
+05:08:42  [validate]  72.87 +- 1.16  ep  47.4  seed 0       2048  drop 0.2/0.7/0.0  lr 0.0001  wd 0.01  ls 0.1
+05:08:42  [validate]  72.52 +- 1.25  ep  52.0  seed 1       2048  drop 0.2/0.7/0.0  lr 0.0001  wd 0.01  ls 0.1
+05:08:42  [validate]  72.51 +- 1.31  ep  44.2  seed 2       2048  drop 0.2/0.7/0.0  lr 0.0001  wd 0.01  ls 0.1
+05:08:42            group of 15 models: 78 epochs in 44 s
+05:08:42  2 layers (search.py: 73.08): 72.91
+05:08:42  1 layer (search.py: 72.78): 72.64

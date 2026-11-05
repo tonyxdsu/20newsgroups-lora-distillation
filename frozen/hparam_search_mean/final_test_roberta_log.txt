@@ -1,0 +1,2 @@
+roberta    MLP, best                  CV 72.42  test 67.23 +- 0.17
+roberta    MLP, best 1 hidden layer   CV 72.06  test 66.83 +- 0.25

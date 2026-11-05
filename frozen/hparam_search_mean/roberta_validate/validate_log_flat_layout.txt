@@ -1,0 +1,5 @@
+04:20:27  roberta_cls_20ng.npz: (11096, 768), 277 batches per epoch. 0 runs already done.
+04:25:54  [validate]  73.08 +- 1.15  ep  67.0  seed 0    2048/64  drop 0.2/0.7/0.5  lr 0.0001  wd 0.01  ls 0.1
+04:25:54  [validate]  72.86 +- 0.91  ep  86.4  seed 1    2048/64  drop 0.2/0.7/0.5  lr 0.0001  wd 0.01  ls 0.1
+04:25:54  [validate]  73.01 +- 1.15  ep  81.4  seed 2    2048/64  drop 0.2/0.7/0.5  lr 0.0001  wd 0.01  ls 0.1
+04:25:54            group of 15 models: 115 epochs in 327 s

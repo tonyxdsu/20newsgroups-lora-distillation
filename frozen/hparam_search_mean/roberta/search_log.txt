@@ -1,0 +1,627 @@
+04:31:12  roberta_mean_20ng.npz: (11096, 768), 277 batches per epoch. 0 runs already done.
+04:37:02  [ref    ]  72.03 +- 1.25  ep  74.2  seed 0    2048/64  drop 0.2/0.7/0.5  lr 0.0001  wd 0.01  ls 0.1
+04:37:03  [ref    ]  72.16 +- 1.25  ep  76.4  seed 1    2048/64  drop 0.2/0.7/0.5  lr 0.0001  wd 0.01  ls 0.1
+04:37:03  [ref    ]  72.01 +- 1.25  ep  63.0  seed 2    2048/64  drop 0.2/0.7/0.5  lr 0.0001  wd 0.01  ls 0.1
+04:37:03            group of 15 models: 113 epochs in 350 s
+04:43:24  [random ]  62.99 +- 1.10  ep  67.4  seed 0    2048/32  drop 0.5/0.8/0.7  lr 0.0003  wd 0.1  ls 0.2
+04:43:24  [random ]  69.42 +- 1.15  ep  29.2  seed 0    2048/32  drop 0.1/0.4/0.6  lr 0.0003  wd 0  ls 0.2
+04:43:24  [random ]  58.53 +- 0.45  ep  39.4  seed 0    2048/32  drop 0.5/0.8/0.7  lr 0.0003  wd 0.01  ls 0
+04:43:24  [random ]  66.66 +- 0.57  ep  50.0  seed 0    2048/32  drop 0.4/0.6/0.7  lr 0.0003  wd 0.1  ls 0.1
+04:43:24  [random ]  68.91 +- 0.97  ep   5.2  seed 0    2048/32  drop 0.0/0.6/0.0  lr 0.0003  wd 0.01  ls 0
+04:43:24  [random ]  68.28 +- 1.07  ep  12.8  seed 0    2048/32  drop 0.3/0.0/0.6  lr 0.0003  wd 0.01  ls 0
+04:43:24  [random ]  71.62 +- 1.44  ep  19.0  seed 0    2048/32  drop 0.0/0.0/0.6  lr 0.0003  wd 0  ls 0.2
+04:43:24  [random ]  70.67 +- 1.02  ep  27.6  seed 0    2048/32  drop 0.1/0.2/0.6  lr 0.0003  wd 0.01  ls 0.2
+04:43:24            group of 40 models: 98 epochs in 382 s
+04:55:51  [random ]  71.77 +- 1.15  ep  39.0  seed 0    4096/64  drop 0.1/0.0/0.3  lr 3e-05  wd 0  ls 0.2
+04:55:51  [random ]  72.34 +- 1.25  ep 209.6  seed 0    4096/64  drop 0.1/0.8/0.7  lr 3e-05  wd 0.01  ls 0.05
+04:55:51  [random ]  71.29 +- 1.34  ep  52.6  seed 0    4096/64  drop 0.4/0.0/0.2  lr 3e-05  wd 0.1  ls 0.05
+04:55:51  [random ]  70.76 +- 1.57  ep  37.4  seed 0    4096/64  drop 0.2/0.0/0.5  lr 3e-05  wd 0  ls 0
+04:55:51            group of 20 models: 250 epochs in 747 s
+05:02:59  [random ]  70.67 +- 0.95  ep  24.0  seed 0   1024/256  drop 0.4/0.0/0.2  lr 0.0001  wd 0.1  ls 0.2
+05:02:59  [random ]  70.84 +- 1.28  ep  22.8  seed 0   1024/256  drop 0.4/0.2/0.2  lr 0.0001  wd 0  ls 0.05
+05:02:59  [random ]  71.35 +- 0.74  ep  47.8  seed 0   1024/256  drop 0.4/0.4/0.0  lr 0.0001  wd 0.1  ls 0.2
+05:02:59  [random ]  72.37 +- 1.09  ep  34.8  seed 0   1024/256  drop 0.1/0.4/0.6  lr 0.0001  wd 0.01  ls 0.2
+05:02:59  [random ]  70.83 +- 1.12  ep  14.2  seed 0   1024/256  drop 0.1/0.4/0.3  lr 0.0001  wd 0.1  ls 0.05
+05:02:59  [random ]  70.24 +- 0.76  ep  12.2  seed 0   1024/256  drop 0.2/0.0/0.2  lr 0.0001  wd 0.01  ls 0.1
+05:02:59  [random ]  71.87 +- 1.34  ep  33.6  seed 0   1024/256  drop 0.1/0.4/0.6  lr 0.0001  wd 0  ls 0.2
+05:02:59  [random ]  71.65 +- 1.39  ep  70.2  seed 0   1024/256  drop 0.3/0.7/0.6  lr 0.0001  wd 0.01  ls 0.1
+05:02:59  [random ]  71.68 +- 1.45  ep  45.2  seed 0   1024/256  drop 0.2/0.6/0.5  lr 0.0001  wd 0.01  ls 0.1
+05:02:59  [random ]  71.03 +- 1.14  ep  14.2  seed 0   1024/256  drop 0.0/0.2/0.6  lr 0.0001  wd 0.1  ls 0.1
+05:02:59  [random ]  70.59 +- 1.20  ep  14.6  seed 0   1024/256  drop 0.0/0.6/0.2  lr 0.0001  wd 0  ls 0.05
+05:02:59  [random ]  70.98 +- 1.05  ep  70.4  seed 0   1024/256  drop 0.3/0.8/0.2  lr 0.0001  wd 0  ls 0.05
+05:02:59  [random ]  71.23 +- 1.23  ep  52.4  seed 0   1024/256  drop 0.2/0.8/0.3  lr 0.0001  wd 0.1  ls 0.05
+05:02:59  [random ]  69.19 +- 1.08  ep  82.2  seed 0   1024/256  drop 0.5/0.8/0.7  lr 0.0001  wd 0.1  ls 0
+05:02:59  [random ]  70.83 +- 0.97  ep  49.4  seed 0   1024/256  drop 0.5/0.4/0.2  lr 0.0001  wd 0.01  ls 0.1
+05:02:59  [random ]  71.09 +- 1.24  ep  35.0  seed 0   1024/256  drop 0.1/0.8/0.2  lr 0.0001  wd 0.01  ls 0.05
+05:02:59            group of 80 models: 118 epochs in 427 s
+05:06:30  [random ]  71.37 +- 1.23  ep  19.8  seed 0   4096/128  drop 0.0/0.7/0.0  lr 0.0001  wd 0.1  ls 0.2
+05:06:30  [random ]  71.17 +- 1.28  ep  50.4  seed 0   4096/128  drop 0.5/0.4/0.5  lr 0.0001  wd 0.01  ls 0.2
+05:06:30  [random ]  70.15 +- 1.16  ep   8.4  seed 0   4096/128  drop 0.2/0.6/0.0  lr 0.0001  wd 0.1  ls 0
+05:06:30  [random ]  70.45 +- 1.41  ep   8.2  seed 0   4096/128  drop 0.3/0.2/0.2  lr 0.0001  wd 0  ls 0
+05:06:30            group of 20 models: 66 epochs in 211 s
+=== restart 05:09:01 with compaction (--deadline 09:46 --random-until 06:53)
+05:09:05  roberta_mean_20ng.npz: (11096, 768), 277 batches per epoch. 35 runs already done.
+05:18:12  [random ]  70.63 +- 1.47  ep 260.8  seed 0    2048/32  drop 0.5/0.5/0.6  lr 3e-05  wd 0.01  ls 0.1
+05:18:12  [random ]  71.24 +- 1.28  ep  60.2  seed 0    2048/32  drop 0.1/0.4/0.3  lr 3e-05  wd 0.1  ls 0
+05:18:12  [random ]  69.30 +- 0.38  ep 246.8  seed 0    2048/32  drop 0.5/0.7/0.6  lr 3e-05  wd 0  ls 0.05
+05:18:12  [random ]  72.22 +- 1.28  ep 171.8  seed 0    2048/32  drop 0.1/0.5/0.6  lr 3e-05  wd 0  ls 0.05
+05:18:12  [random ]  68.89 +- 1.02  ep 267.0  seed 0    2048/32  drop 0.5/0.6/0.7  lr 3e-05  wd 0  ls 0.1
+05:18:12  [random ]  71.04 +- 1.35  ep 167.2  seed 0    2048/32  drop 0.4/0.7/0.3  lr 3e-05  wd 0  ls 0.05
+05:18:12  [random ]  72.22 +- 1.53  ep 109.2  seed 0    2048/32  drop 0.1/0.4/0.3  lr 3e-05  wd 0.01  ls 0.1
+05:18:12  [random ]  70.22 +- 1.25  ep  23.4  seed 0    2048/32  drop 0.0/0.0/0.0  lr 3e-05  wd 0  ls 0.05
+05:18:12            group of 40 models: 300 epochs in 547 s
+05:19:29  [random ]  69.83 +- 0.95  ep   8.8  seed 0   4096/128  drop 0.2/0.4/0.5  lr 0.0003  wd 0.1  ls 0.05
+05:19:29  [random ]  69.81 +- 0.89  ep  36.4  seed 0   4096/128  drop 0.4/0.8/0.3  lr 0.0003  wd 0.01  ls 0.1
+05:19:29  [random ]  68.42 +- 0.87  ep  15.0  seed 0   4096/128  drop 0.5/0.2/0.7  lr 0.0003  wd 0  ls 0
+05:19:29  [random ]  69.26 +- 1.45  ep  15.8  seed 0   4096/128  drop 0.5/0.6/0.5  lr 0.0003  wd 0.1  ls 0
+05:19:29            group of 20 models: 58 epochs in 76 s
+05:21:12  [random ]  67.63 +- 1.46  ep   3.2  seed 0   2048/256  drop 0.3/0.0/0.0  lr 0.0003  wd 0.1  ls 0
+05:21:12  [random ]  69.48 +- 1.47  ep   6.8  seed 0   2048/256  drop 0.1/0.6/0.6  lr 0.0003  wd 0  ls 0
+05:21:12  [random ]  68.84 +- 1.06  ep   7.4  seed 0   2048/256  drop 0.0/0.8/0.2  lr 0.0003  wd 0.1  ls 0
+05:21:12  [random ]  67.80 +- 0.89  ep  33.0  seed 0   2048/256  drop 0.5/0.8/0.6  lr 0.0003  wd 0  ls 0
+05:21:12  [random ]  70.62 +- 0.92  ep  25.2  seed 0   2048/256  drop 0.4/0.6/0.2  lr 0.0003  wd 0  ls 0.2
+05:21:12  [random ]  70.31 +- 1.00  ep  24.6  seed 0   2048/256  drop 0.3/0.7/0.3  lr 0.0003  wd 0.01  ls 0.1
+05:21:12  [random ]  69.12 +- 1.08  ep   3.0  seed 0   2048/256  drop 0.0/0.0/0.6  lr 0.0003  wd 0.01  ls 0
+05:21:12  [random ]  69.91 +- 0.92  ep  12.4  seed 0   2048/256  drop 0.3/0.4/0.2  lr 0.0003  wd 0  ls 0.2
+05:21:12            group of 40 models: 55 epochs in 103 s
+05:23:12  [random ]  71.88 +- 1.33  ep  35.4  seed 0    4096/64  drop 0.3/0.0/0.6  lr 0.0001  wd 0  ls 0.1
+05:23:12  [random ]  71.80 +- 0.88  ep  50.6  seed 0    4096/64  drop 0.1/0.6/0.6  lr 0.0001  wd 0.1  ls 0.2
+05:23:12  [random ]  70.95 +- 1.23  ep  11.4  seed 0    4096/64  drop 0.0/0.4/0.3  lr 0.0001  wd 0.01  ls 0.05
+05:23:12  [random ]  71.48 +- 0.78  ep  33.6  seed 0    4096/64  drop 0.4/0.0/0.5  lr 0.0001  wd 0.01  ls 0.1
+05:23:12            group of 20 models: 68 epochs in 120 s
+05:24:55  [random ]  70.91 +- 1.20  ep  19.6  seed 0       1024  drop 0.3/0.5/0.0  lr 0.0003  wd 0  ls 0.05
+05:24:55  [random ]  70.31 +- 1.05  ep  24.0  seed 0       1024  drop 0.5/0.7/0.0  lr 0.0003  wd 0.01  ls 0
+05:24:55  [random ]  70.02 +- 0.76  ep   7.2  seed 0       1024  drop 0.1/0.7/0.0  lr 0.0003  wd 0.01  ls 0
+05:24:55  [random ]  70.04 +- 1.30  ep   9.4  seed 0       1024  drop 0.0/0.8/0.0  lr 0.0003  wd 0  ls 0
+05:24:55  [random ]  70.98 +- 1.67  ep  15.0  seed 0       1024  drop 0.0/0.5/0.0  lr 0.0003  wd 0  ls 0.2
+05:24:55  [random ]  71.30 +- 1.48  ep  27.2  seed 0       1024  drop 0.3/0.5/0.0  lr 0.0003  wd 0.01  ls 0.1
+05:24:55  [random ]  70.75 +- 1.51  ep  22.4  seed 0       1024  drop 0.3/0.5/0.0  lr 0.0003  wd 0.1  ls 0.05
+05:24:55  [random ]  69.76 +- 1.01  ep  14.0  seed 0       1024  drop 0.5/0.0/0.0  lr 0.0003  wd 0  ls 0.1
+05:24:55  [random ]  71.08 +- 1.03  ep  38.4  seed 0       1024  drop 0.5/0.5/0.0  lr 0.0003  wd 0.01  ls 0.2
+05:24:55  [random ]  69.27 +- 1.12  ep   4.0  seed 0       1024  drop 0.0/0.2/0.0  lr 0.0003  wd 0.01  ls 0.05
+05:24:55  [random ]  70.71 +- 1.08  ep  17.0  seed 0       1024  drop 0.1/0.7/0.0  lr 0.0003  wd 0  ls 0.05
+05:24:55  [random ]  69.69 +- 1.16  ep   4.0  seed 0       1024  drop 0.1/0.2/0.0  lr 0.0003  wd 0.01  ls 0.05
+05:24:55  [random ]  69.83 +- 1.20  ep   7.8  seed 0       1024  drop 0.1/0.4/0.0  lr 0.0003  wd 0  ls 0.05
+05:24:55  [random ]  70.37 +- 1.13  ep   9.0  seed 0       1024  drop 0.2/0.2/0.0  lr 0.0003  wd 0.01  ls 0.1
+05:24:55  [random ]  70.81 +- 0.43  ep  21.2  seed 0       1024  drop 0.4/0.2/0.0  lr 0.0003  wd 0.01  ls 0.2
+05:24:55  [random ]  69.48 +- 1.17  ep   6.2  seed 0       1024  drop 0.2/0.2/0.0  lr 0.0003  wd 0.01  ls 0.05
+05:24:55            group of 80 models: 70 epochs in 103 s
+05:29:28  [random ]  71.76 +- 1.07  ep  34.0  seed 0   4096/256  drop 0.1/0.5/0.0  lr 3e-05  wd 0  ls 0.2
+05:29:28  [random ]  71.62 +- 1.18  ep 114.4  seed 0   4096/256  drop 0.4/0.8/0.2  lr 3e-05  wd 0  ls 0.05
+05:29:28  [random ]  70.78 +- 1.16  ep  20.6  seed 0   4096/256  drop 0.0/0.5/0.2  lr 3e-05  wd 0.1  ls 0.05
+05:29:28  [random ]  70.89 +- 1.43  ep  17.8  seed 0   4096/256  drop 0.1/0.2/0.5  lr 3e-05  wd 0  ls 0
+05:29:28            group of 20 models: 170 epochs in 274 s
+05:30:27  [random ]  67.44 +- 1.45  ep   2.6  seed 0    4096/64  drop 0.2/0.0/0.0  lr 0.0003  wd 0  ls 0
+05:30:27  [random ]  68.19 +- 0.96  ep  16.4  seed 0    4096/64  drop 0.5/0.5/0.5  lr 0.0003  wd 0.01  ls 0
+05:30:27  [random ]  70.34 +- 1.26  ep  13.2  seed 0    4096/64  drop 0.0/0.0/0.7  lr 0.0003  wd 0.1  ls 0.05
+05:30:27  [random ]  68.75 +- 1.28  ep   7.4  seed 0    4096/64  drop 0.0/0.6/0.0  lr 0.0003  wd 0.01  ls 0.1
+05:30:27            group of 20 models: 31 epochs in 59 s
+05:32:08  [random ]  70.91 +- 1.25  ep  27.6  seed 0       1024  drop 0.1/0.8/0.0  lr 0.0003  wd 0.1  ls 0.05
+05:32:08  [random ]  70.38 +- 1.04  ep  33.2  seed 0       1024  drop 0.5/0.8/0.0  lr 0.0003  wd 0  ls 0
+05:32:08  [random ]  70.02 +- 0.89  ep   8.2  seed 0       1024  drop 0.3/0.5/0.0  lr 0.0003  wd 0.1  ls 0
+05:32:08  [random ]  69.80 +- 0.93  ep   5.2  seed 0       1024  drop 0.0/0.4/0.0  lr 0.0003  wd 0.01  ls 0.05
+05:32:08  [random ]  71.09 +- 0.79  ep  25.0  seed 0       1024  drop 0.4/0.4/0.0  lr 0.0003  wd 0.01  ls 0.1
+05:32:08  [random ]  70.34 +- 1.07  ep   8.4  seed 0       1024  drop 0.1/0.2/0.0  lr 0.0003  wd 0.01  ls 0.2
+05:32:08  [random ]  70.84 +- 1.17  ep  11.4  seed 0       1024  drop 0.0/0.4/0.0  lr 0.0003  wd 0.1  ls 0.2
+05:32:08  [random ]  71.07 +- 1.26  ep  22.2  seed 0       1024  drop 0.3/0.4/0.0  lr 0.0003  wd 0  ls 0.2
+05:32:08  [random ]  69.69 +- 1.30  ep   9.0  seed 0       1024  drop 0.4/0.4/0.0  lr 0.0003  wd 0.1  ls 0
+05:32:08  [random ]  70.86 +- 0.90  ep  41.4  seed 0       1024  drop 0.5/0.7/0.0  lr 0.0003  wd 0.01  ls 0.05
+05:32:08  [random ]  70.66 +- 1.37  ep  23.2  seed 0       1024  drop 0.4/0.5/0.0  lr 0.0003  wd 0  ls 0.05
+05:32:08  [random ]  69.23 +- 0.88  ep   7.0  seed 0       1024  drop 0.4/0.2/0.0  lr 0.0003  wd 0.01  ls 0
+05:32:08  [random ]  69.93 +- 1.04  ep   6.6  seed 0       1024  drop 0.3/0.2/0.0  lr 0.0003  wd 0.01  ls 0.05
+05:32:08  [random ]  71.78 +- 1.25  ep  47.8  seed 0       1024  drop 0.2/0.8/0.0  lr 0.0003  wd 0  ls 0.1
+05:32:08  [random ]  71.51 +- 0.96  ep  28.8  seed 0       1024  drop 0.3/0.6/0.0  lr 0.0003  wd 0.01  ls 0.2
+05:32:08  [random ]  71.24 +- 0.81  ep  29.4  seed 0       1024  drop 0.2/0.7/0.0  lr 0.0003  wd 0  ls 0.1
+05:32:08            group of 80 models: 87 epochs in 101 s
+05:39:16  [random ]  71.78 +- 1.08  ep 203.8  seed 0   1024/128  drop 0.4/0.5/0.7  lr 3e-05  wd 0.1  ls 0.05
+05:39:16  [random ]  70.77 +- 1.14  ep 142.0  seed 0   1024/128  drop 0.3/0.8/0.2  lr 3e-05  wd 0.1  ls 0
+05:39:16  [random ]  70.94 +- 1.18  ep  60.8  seed 0   1024/128  drop 0.3/0.2/0.5  lr 3e-05  wd 0.01  ls 0
+05:39:16  [random ]  71.12 +- 1.12  ep 126.2  seed 0   1024/128  drop 0.5/0.0/0.6  lr 3e-05  wd 0  ls 0.1
+05:39:16  [random ]  71.86 +- 1.25  ep  96.0  seed 0   1024/128  drop 0.1/0.5/0.5  lr 3e-05  wd 0  ls 0.2
+05:39:16  [random ]  70.65 +- 1.18  ep  92.6  seed 0   1024/128  drop 0.1/0.8/0.5  lr 3e-05  wd 0.01  ls 0
+05:39:16  [random ]  71.13 +- 1.27  ep 102.0  seed 0   1024/128  drop 0.3/0.6/0.5  lr 3e-05  wd 0  ls 0
+05:39:16  [random ]  71.21 +- 1.30  ep  55.8  seed 0   1024/128  drop 0.1/0.4/0.3  lr 3e-05  wd 0.1  ls 0.05
+05:39:16  [random ]  71.58 +- 1.08  ep 106.6  seed 0   1024/128  drop 0.4/0.2/0.5  lr 3e-05  wd 0  ls 0.05
+05:39:16  [random ]  71.39 +- 1.01  ep  42.6  seed 0   1024/128  drop 0.1/0.2/0.2  lr 3e-05  wd 0.1  ls 0.1
+05:39:16  [random ]  71.34 +- 1.09  ep 183.8  seed 0   1024/128  drop 0.5/0.5/0.3  lr 3e-05  wd 0.01  ls 0.1
+05:39:16  [random ]  70.85 +- 1.37  ep 155.4  seed 0   1024/128  drop 0.5/0.7/0.2  lr 3e-05  wd 0.01  ls 0.05
+05:39:16  [random ]  72.05 +- 1.05  ep 101.4  seed 0   1024/128  drop 0.0/0.5/0.6  lr 3e-05  wd 0.1  ls 0.2
+05:39:16  [random ]  71.57 +- 0.88  ep  67.4  seed 0   1024/128  drop 0.0/0.5/0.2  lr 3e-05  wd 0.1  ls 0.2
+05:39:16  [random ]  71.39 +- 1.36  ep 116.6  seed 0   1024/128  drop 0.3/0.6/0.3  lr 3e-05  wd 0  ls 0.05
+05:39:16  [random ]  70.84 +- 1.10  ep  59.2  seed 0   1024/128  drop 0.0/0.6/0.6  lr 3e-05  wd 0.1  ls 0
+05:39:16            group of 80 models: 261 epochs in 427 s
+05:47:53  [random ]  70.48 +- 1.16  ep 108.6  seed 0    1024/32  drop 0.5/0.5/0.0  lr 3e-05  wd 0.01  ls 0
+05:47:53  [random ]  70.31 +- 1.08  ep 160.0  seed 0    1024/32  drop 0.3/0.5/0.6  lr 3e-05  wd 0.1  ls 0.2
+05:47:53  [random ]  68.23 +- 1.15  ep 233.0  seed 0    1024/32  drop 0.5/0.6/0.7  lr 3e-05  wd 0.1  ls 0.2
+05:47:53  [random ]  70.20 +- 1.35  ep 244.0  seed 0    1024/32  drop 0.3/0.7/0.6  lr 3e-05  wd 0.1  ls 0.1
+05:47:53  [random ]  71.23 +- 1.08  ep 171.4  seed 0    1024/32  drop 0.1/0.4/0.7  lr 3e-05  wd 0.01  ls 0.2
+05:47:53  [random ]  71.43 +- 1.22  ep 131.2  seed 0    1024/32  drop 0.0/0.5/0.5  lr 3e-05  wd 0.01  ls 0.05
+05:47:53  [random ]  70.10 +- 1.10  ep  31.8  seed 0    1024/32  drop 0.0/0.2/0.0  lr 3e-05  wd 0.01  ls 0
+05:47:53  [random ]  71.70 +- 1.17  ep 128.2  seed 0    1024/32  drop 0.4/0.2/0.2  lr 3e-05  wd 0.01  ls 0.2
+05:47:53  [random ]  71.27 +- 1.17  ep 170.2  seed 0    1024/32  drop 0.0/0.4/0.7  lr 3e-05  wd 0.1  ls 0.05
+05:47:53  [random ]  71.67 +- 1.47  ep 187.4  seed 0    1024/32  drop 0.4/0.5/0.0  lr 3e-05  wd 0  ls 0.2
+05:47:53  [random ]  71.67 +- 1.16  ep 179.2  seed 0    1024/32  drop 0.1/0.7/0.3  lr 3e-05  wd 0.1  ls 0.1
+05:47:53  [random ]  70.68 +- 1.00  ep  87.0  seed 0    1024/32  drop 0.0/0.0/0.7  lr 3e-05  wd 0.01  ls 0
+05:47:53  [random ]  71.30 +- 1.01  ep 172.6  seed 0    1024/32  drop 0.5/0.2/0.2  lr 3e-05  wd 0.01  ls 0.1
+05:47:53  [random ]  70.51 +- 1.04  ep 280.0  seed 0    1024/32  drop 0.5/0.8/0.2  lr 3e-05  wd 0.01  ls 0.1
+05:47:53  [random ]  71.63 +- 1.23  ep 190.2  seed 0    1024/32  drop 0.3/0.2/0.6  lr 3e-05  wd 0.1  ls 0.1
+05:47:53            group of 75 models: 300 epochs in 517 s
+05:52:50  [random ]  71.41 +- 0.95  ep 146.8  seed 0    1024/32  drop 0.3/0.5/0.6  lr 0.0001  wd 0.01  ls 0.2
+05:52:50  [random ]  71.04 +- 0.93  ep 109.0  seed 0    1024/32  drop 0.3/0.8/0.2  lr 0.0001  wd 0  ls 0.05
+05:52:50  [random ]  71.27 +- 1.22  ep  67.0  seed 0    1024/32  drop 0.4/0.0/0.5  lr 0.0001  wd 0.01  ls 0.2
+05:52:50  [random ]  68.56 +- 0.74  ep  69.4  seed 0    1024/32  drop 0.3/0.8/0.5  lr 0.0001  wd 0.01  ls 0
+05:52:50  [random ]  70.63 +- 1.21  ep  18.6  seed 0    1024/32  drop 0.1/0.4/0.2  lr 0.0001  wd 0.01  ls 0
+05:52:50  [random ]  68.09 +- 0.61  ep 167.4  seed 0    1024/32  drop 0.3/0.8/0.7  lr 0.0001  wd 0  ls 0.1
+05:52:50  [random ]  70.92 +- 1.00  ep 130.0  seed 0    1024/32  drop 0.4/0.2/0.7  lr 0.0001  wd 0.01  ls 0.1
+05:52:50  [random ]  66.38 +- 0.58  ep  76.4  seed 0    1024/32  drop 0.5/0.7/0.6  lr 0.0001  wd 0.01  ls 0
+05:52:50  [random ]  71.81 +- 1.28  ep  68.0  seed 0    1024/32  drop 0.2/0.6/0.2  lr 0.0001  wd 0  ls 0.1
+05:52:50  [random ]  70.93 +- 0.90  ep 122.6  seed 0    1024/32  drop 0.2/0.8/0.5  lr 0.0001  wd 0.01  ls 0.05
+05:52:50  [random ]  69.73 +- 0.89  ep  51.4  seed 0    1024/32  drop 0.0/0.6/0.7  lr 0.0001  wd 0  ls 0
+05:52:50  [random ]  71.43 +- 1.02  ep 105.4  seed 0    1024/32  drop 0.3/0.7/0.2  lr 0.0001  wd 0.1  ls 0.1
+05:52:50  [random ]  71.16 +- 1.34  ep 135.4  seed 0    1024/32  drop 0.5/0.2/0.6  lr 0.0001  wd 0.01  ls 0.2
+05:52:50  [random ]  71.35 +- 1.18  ep  22.4  seed 0    1024/32  drop 0.0/0.5/0.0  lr 0.0001  wd 0.1  ls 0.1
+05:52:50  [random ]  71.68 +- 1.18  ep  35.8  seed 0    1024/32  drop 0.1/0.0/0.5  lr 0.0001  wd 0  ls 0.2
+05:52:50  [random ]  71.60 +- 1.26  ep  83.2  seed 0    1024/32  drop 0.1/0.7/0.3  lr 0.0001  wd 0.1  ls 0.05
+05:52:50            group of 80 models: 215 epochs in 297 s
+06:00:08  [random ]  71.69 +- 1.21  ep 213.8  seed 0    2048/32  drop 0.2/0.8/0.3  lr 3e-05  wd 0.1  ls 0.1
+06:00:08  [random ]  71.80 +- 0.95  ep  57.2  seed 0    2048/32  drop 0.1/0.0/0.2  lr 3e-05  wd 0  ls 0.2
+06:00:08  [random ]  69.38 +- 0.96  ep 207.6  seed 0    2048/32  drop 0.5/0.7/0.6  lr 3e-05  wd 0.1  ls 0.2
+06:00:08  [random ]  71.98 +- 1.08  ep 108.6  seed 0    2048/32  drop 0.0/0.7/0.2  lr 3e-05  wd 0.01  ls 0.2
+06:00:08  [random ]  71.05 +- 1.43  ep  78.2  seed 0    2048/32  drop 0.3/0.2/0.3  lr 3e-05  wd 0  ls 0
+06:00:08  [random ]  70.27 +- 0.99  ep  58.6  seed 0    2048/32  drop 0.5/0.0/0.0  lr 3e-05  wd 0  ls 0
+06:00:08  [random ]  71.10 +- 0.83  ep 126.6  seed 0    2048/32  drop 0.3/0.2/0.6  lr 3e-05  wd 0.1  ls 0
+06:00:08  [random ]  70.91 +- 1.18  ep 184.6  seed 0    2048/32  drop 0.5/0.4/0.3  lr 3e-05  wd 0.1  ls 0.1
+06:00:08            group of 40 models: 300 epochs in 438 s
+06:02:17  [random ]  71.71 +- 1.08  ep  86.8  seed 0       4096  drop 0.3/0.7/0.0  lr 3e-05  wd 0.01  ls 0.05
+06:02:17  [random ]  70.99 +- 0.84  ep  37.8  seed 0       4096  drop 0.1/0.6/0.0  lr 3e-05  wd 0.1  ls 0.05
+06:02:17  [random ]  70.76 +- 1.19  ep  19.0  seed 0       4096  drop 0.1/0.0/0.0  lr 3e-05  wd 0  ls 0.05
+06:02:17  [random ]  71.03 +- 1.06  ep  67.2  seed 0       4096  drop 0.4/0.7/0.0  lr 3e-05  wd 0.1  ls 0
+06:02:17            group of 20 models: 107 epochs in 129 s
+06:04:12  [random ]  70.59 +- 1.51  ep  14.4  seed 0   4096/128  drop 0.2/0.5/0.3  lr 0.0003  wd 0.01  ls 0.1
+06:04:12  [random ]  70.38 +- 1.05  ep  19.8  seed 0   4096/128  drop 0.3/0.2/0.7  lr 0.0003  wd 0  ls 0.05
+06:04:12  [random ]  69.59 +- 1.11  ep  17.2  seed 0   4096/128  drop 0.4/0.7/0.2  lr 0.0003  wd 0  ls 0.05
+06:04:12  [random ]  69.64 +- 0.90  ep  37.2  seed 0   4096/128  drop 0.0/0.8/0.7  lr 0.0003  wd 0.01  ls 0.2
+06:04:12            group of 20 models: 58 epochs in 115 s
+06:05:36  [random ]  70.78 +- 1.30  ep  16.4  seed 0       4096  drop 0.4/0.0/0.0  lr 0.0001  wd 0  ls 0.2
+06:05:36  [random ]  70.84 +- 1.65  ep  13.8  seed 0       4096  drop 0.3/0.0/0.0  lr 0.0001  wd 0.1  ls 0.1
+06:05:36  [random ]  71.34 +- 0.98  ep  27.0  seed 0       4096  drop 0.3/0.6/0.0  lr 0.0001  wd 0.01  ls 0.05
+06:05:36  [random ]  70.31 +- 1.05  ep  21.2  seed 0       4096  drop 0.5/0.0/0.0  lr 0.0001  wd 0.01  ls 0.1
+06:05:36            group of 20 models: 43 epochs in 84 s
+06:07:55  [random ]  67.98 +- 1.05  ep  29.4  seed 0    4096/64  drop 0.3/0.6/0.7  lr 0.0003  wd 0.1  ls 0.05
+06:07:55  [random ]  69.35 +- 1.06  ep  36.6  seed 0    4096/64  drop 0.0/0.8/0.6  lr 0.0003  wd 0.1  ls 0.2
+06:07:55  [random ]  69.84 +- 0.77  ep  34.4  seed 0    4096/64  drop 0.2/0.7/0.5  lr 0.0003  wd 0.01  ls 0.1
+06:07:55  [random ]  71.12 +- 1.51  ep  22.4  seed 0    4096/64  drop 0.0/0.2/0.7  lr 0.0003  wd 0.1  ls 0.1
+06:07:55            group of 20 models: 71 epochs in 139 s
+06:16:55  [random ]  67.60 +- 1.01  ep 190.0  seed 0    1024/32  drop 0.5/0.4/0.7  lr 3e-05  wd 0  ls 0
+06:16:55  [random ]  71.88 +- 1.40  ep 126.6  seed 0    1024/32  drop 0.2/0.0/0.6  lr 3e-05  wd 0  ls 0.2
+06:16:55  [random ]  71.70 +- 1.13  ep 149.6  seed 0    1024/32  drop 0.0/0.4/0.6  lr 3e-05  wd 0.1  ls 0.05
+06:16:55  [random ]  70.12 +- 0.95  ep  96.8  seed 0    1024/32  drop 0.0/0.5/0.6  lr 3e-05  wd 0  ls 0
+06:16:55  [random ]  71.76 +- 1.44  ep 178.6  seed 0    1024/32  drop 0.0/0.5/0.6  lr 3e-05  wd 0  ls 0.1
+06:16:55  [random ]  71.39 +- 1.33  ep 229.0  seed 0    1024/32  drop 0.3/0.7/0.3  lr 3e-05  wd 0  ls 0.1
+06:16:55  [random ]  70.75 +- 1.04  ep  97.6  seed 0    1024/32  drop 0.1/0.7/0.2  lr 3e-05  wd 0.01  ls 0
+06:16:55  [random ]  71.62 +- 1.47  ep 109.0  seed 0    1024/32  drop 0.0/0.0/0.7  lr 3e-05  wd 0.01  ls 0.2
+06:16:55  [random ]  70.56 +- 1.11  ep 162.4  seed 0    1024/32  drop 0.2/0.5/0.6  lr 3e-05  wd 0  ls 0
+06:16:55  [random ]  71.30 +- 1.29  ep 126.4  seed 0    1024/32  drop 0.4/0.2/0.2  lr 3e-05  wd 0  ls 0.2
+06:16:55  [random ]  71.07 +- 1.13  ep 262.4  seed 0    1024/32  drop 0.1/0.6/0.7  lr 3e-05  wd 0  ls 0.1
+06:16:55  [random ]  71.02 +- 1.29  ep  71.6  seed 0    1024/32  drop 0.0/0.0/0.5  lr 3e-05  wd 0  ls 0.05
+06:16:55  [random ]  72.06 +- 1.26  ep 123.0  seed 0    1024/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+06:16:55  [random ]  71.29 +- 1.14  ep 213.6  seed 0    1024/32  drop 0.3/0.0/0.7  lr 3e-05  wd 0.1  ls 0.05
+06:16:55  [random ]  70.18 +- 0.76  ep 260.6  seed 0    1024/32  drop 0.5/0.4/0.6  lr 3e-05  wd 0.01  ls 0.05
+06:16:55  [random ]  71.51 +- 1.34  ep 107.8  seed 0    1024/32  drop 0.0/0.5/0.2  lr 3e-05  wd 0.01  ls 0.2
+06:16:55            group of 80 models: 300 epochs in 540 s
+06:20:23  [random ]  71.65 +- 1.23  ep  85.6  seed 0    2048/32  drop 0.0/0.5/0.7  lr 0.0001  wd 0.1  ls 0.05
+06:20:23  [random ]  70.04 +- 1.31  ep  32.4  seed 0    2048/32  drop 0.1/0.8/0.2  lr 0.0001  wd 0.1  ls 0
+06:20:23  [random ]  71.79 +- 0.91  ep  64.2  seed 0    2048/32  drop 0.1/0.2/0.7  lr 0.0001  wd 0.01  ls 0.2
+06:20:23  [random ]  68.57 +- 1.47  ep  73.6  seed 0    2048/32  drop 0.5/0.2/0.7  lr 0.0001  wd 0  ls 0
+06:20:23  [random ]  71.77 +- 1.38  ep  60.2  seed 0    2048/32  drop 0.2/0.4/0.6  lr 0.0001  wd 0.01  ls 0.2
+06:20:23  [random ]  71.79 +- 1.48  ep  49.0  seed 0    2048/32  drop 0.2/0.2/0.5  lr 0.0001  wd 0  ls 0.2
+06:20:23  [random ]  71.07 +- 1.02  ep  29.2  seed 0    2048/32  drop 0.1/0.5/0.2  lr 0.0001  wd 0.01  ls 0.05
+06:20:23  [random ]  71.81 +- 1.20  ep  88.4  seed 0    2048/32  drop 0.0/0.8/0.5  lr 0.0001  wd 0.1  ls 0.2
+06:20:23            group of 40 models: 125 epochs in 208 s
+06:25:45  [random ]  70.91 +- 1.13  ep  96.6  seed 0    1024/32  drop 0.5/0.6/0.3  lr 0.0001  wd 0  ls 0.2
+06:25:45  [random ]  71.04 +- 1.18  ep  93.0  seed 0    1024/32  drop 0.4/0.4/0.5  lr 0.0001  wd 0.01  ls 0.05
+06:25:45  [random ]  68.85 +- 1.16  ep 154.4  seed 0    1024/32  drop 0.5/0.5/0.7  lr 0.0001  wd 0.01  ls 0.1
+06:25:45  [random ]  70.67 +- 1.15  ep  28.0  seed 0    1024/32  drop 0.4/0.0/0.0  lr 0.0001  wd 0.01  ls 0.1
+06:25:45  [random ]  70.74 +- 1.54  ep  83.8  seed 0    1024/32  drop 0.0/0.6/0.7  lr 0.0001  wd 0.1  ls 0.2
+06:25:45  [random ]  70.86 +- 1.29  ep 115.6  seed 0    1024/32  drop 0.5/0.2/0.6  lr 0.0001  wd 0.01  ls 0.1
+06:25:45  [random ]  69.75 +- 0.65  ep  48.4  seed 0    1024/32  drop 0.1/0.6/0.6  lr 0.0001  wd 0.1  ls 0
+06:25:45  [random ]  70.48 +- 1.06  ep  82.6  seed 0    1024/32  drop 0.5/0.4/0.5  lr 0.0001  wd 0  ls 0.05
+06:25:45  [random ]  66.56 +- 1.13  ep 136.0  seed 0    1024/32  drop 0.4/0.8/0.7  lr 0.0001  wd 0.01  ls 0.2
+06:25:45  [random ]  71.32 +- 1.34  ep  92.2  seed 0    1024/32  drop 0.0/0.7/0.6  lr 0.0001  wd 0.1  ls 0.2
+06:25:45  [random ]  70.85 +- 1.40  ep 139.4  seed 0    1024/32  drop 0.1/0.7/0.7  lr 0.0001  wd 0  ls 0.2
+06:25:45  [random ]  71.17 +- 1.38  ep 112.0  seed 0    1024/32  drop 0.1/0.5/0.7  lr 0.0001  wd 0.1  ls 0.1
+06:25:45  [random ]  70.39 +- 1.32  ep  29.6  seed 0    1024/32  drop 0.4/0.0/0.3  lr 0.0001  wd 0  ls 0
+06:25:45  [random ]  69.62 +- 1.25  ep  11.6  seed 0    1024/32  drop 0.0/0.0/0.0  lr 0.0001  wd 0.1  ls 0.05
+06:25:45  [random ]  69.85 +- 0.78  ep  75.0  seed 0    1024/32  drop 0.4/0.0/0.7  lr 0.0001  wd 0.01  ls 0
+06:25:45            group of 75 models: 225 epochs in 322 s
+06:27:39  [random ]  71.05 +- 1.26  ep  42.2  seed 0       1024  drop 0.4/0.5/0.0  lr 0.0001  wd 0  ls 0.05
+06:27:39  [random ]  71.00 +- 1.34  ep  43.6  seed 0       1024  drop 0.5/0.2/0.0  lr 0.0001  wd 0.01  ls 0.2
+06:27:39  [random ]  71.06 +- 1.31  ep  21.0  seed 0       1024  drop 0.2/0.0/0.0  lr 0.0001  wd 0.1  ls 0.2
+06:27:39  [random ]  71.13 +- 1.21  ep  29.0  seed 0       1024  drop 0.0/0.7/0.0  lr 0.0001  wd 0  ls 0.1
+06:27:39  [random ]  70.76 +- 1.28  ep  36.6  seed 0       1024  drop 0.2/0.8/0.0  lr 0.0001  wd 0.1  ls 0
+06:27:39  [random ]  71.94 +- 1.47  ep  87.6  seed 0       1024  drop 0.2/0.8/0.0  lr 0.0001  wd 0.01  ls 0.1
+06:27:39  [random ]  70.57 +- 1.00  ep  33.0  seed 0       1024  drop 0.5/0.5/0.0  lr 0.0001  wd 0  ls 0
+06:27:39  [random ]  71.70 +- 1.18  ep  52.0  seed 0       1024  drop 0.3/0.6/0.0  lr 0.0001  wd 0.1  ls 0.05
+06:27:39  [random ]  71.93 +- 1.33  ep  42.2  seed 0       1024  drop 0.3/0.4/0.0  lr 0.0001  wd 0  ls 0.2
+06:27:39  [random ]  71.45 +- 0.90  ep 110.8  seed 0       1024  drop 0.5/0.7/0.0  lr 0.0001  wd 0.01  ls 0.1
+06:27:39  [random ]  70.74 +- 1.49  ep  17.8  seed 0       1024  drop 0.1/0.6/0.0  lr 0.0001  wd 0.01  ls 0
+06:27:39  [random ]  70.84 +- 1.16  ep  41.6  seed 0       1024  drop 0.4/0.7/0.0  lr 0.0001  wd 0.1  ls 0
+06:27:39  [random ]  70.59 +- 1.26  ep  32.4  seed 0       1024  drop 0.5/0.4/0.0  lr 0.0001  wd 0.01  ls 0
+06:27:39  [random ]  70.91 +- 1.13  ep  16.8  seed 0       1024  drop 0.1/0.2/0.0  lr 0.0001  wd 0  ls 0.1
+06:27:39  [random ]  71.12 +- 1.17  ep  24.0  seed 0       1024  drop 0.0/0.7/0.0  lr 0.0001  wd 0.1  ls 0.05
+06:27:39  [random ]  71.28 +- 1.26  ep  56.4  seed 0       1024  drop 0.5/0.5/0.0  lr 0.0001  wd 0.1  ls 0.2
+06:27:39            group of 80 models: 134 epochs in 114 s
+06:34:18  [random ]  71.40 +- 1.04  ep 154.4  seed 0    4096/64  drop 0.3/0.8/0.5  lr 3e-05  wd 0.1  ls 0.2
+06:34:18  [random ]  71.81 +- 1.17  ep 180.8  seed 0    4096/64  drop 0.3/0.7/0.7  lr 3e-05  wd 0  ls 0.05
+06:34:18  [random ]  70.62 +- 1.43  ep  18.4  seed 0    4096/64  drop 0.0/0.0/0.3  lr 3e-05  wd 0.01  ls 0
+06:34:18  [random ]  71.20 +- 1.10  ep  70.6  seed 0    4096/64  drop 0.3/0.0/0.7  lr 3e-05  wd 0.1  ls 0
+06:34:18            group of 20 models: 257 epochs in 399 s
+06:36:41  [random ]  71.84 +- 1.26  ep  52.6  seed 0       1024  drop 0.2/0.6/0.0  lr 0.0001  wd 0  ls 0.1
+06:36:41  [random ]  71.58 +- 1.60  ep  45.2  seed 0       1024  drop 0.2/0.5/0.0  lr 0.0001  wd 0.1  ls 0.1
+06:36:41  [random ]  71.89 +- 1.09  ep  61.2  seed 0       1024  drop 0.3/0.6/0.0  lr 0.0001  wd 0.01  ls 0.2
+06:36:41  [random ]  70.19 +- 1.05  ep   9.8  seed 0       1024  drop 0.2/0.0/0.0  lr 0.0001  wd 0  ls 0
+06:36:41  [random ]  70.95 +- 1.28  ep  27.8  seed 0       1024  drop 0.4/0.0/0.0  lr 0.0001  wd 0  ls 0.2
+06:36:41  [random ]  71.18 +- 1.11  ep  15.4  seed 0       1024  drop 0.1/0.0/0.0  lr 0.0001  wd 0.1  ls 0.2
+06:36:41  [random ]  71.79 +- 1.53  ep  46.4  seed 0       1024  drop 0.2/0.6/0.0  lr 0.0001  wd 0.01  ls 0.1
+06:36:41  [random ]  71.53 +- 1.12  ep  92.4  seed 0       1024  drop 0.5/0.7/0.0  lr 0.0001  wd 0.1  ls 0.05
+06:36:41  [random ]  70.12 +- 1.55  ep   8.2  seed 0       1024  drop 0.1/0.0/0.0  lr 0.0001  wd 0.01  ls 0
+06:36:41  [random ]  71.39 +- 1.20  ep  64.2  seed 0       1024  drop 0.5/0.5/0.0  lr 0.0001  wd 0.01  ls 0.05
+06:36:41  [random ]  71.68 +- 1.34  ep  56.4  seed 0       1024  drop 0.0/0.8/0.0  lr 0.0001  wd 0.1  ls 0.2
+06:36:41  [random ]  70.97 +- 0.99  ep  17.0  seed 0       1024  drop 0.0/0.4/0.0  lr 0.0001  wd 0.01  ls 0.1
+06:36:41  [random ]  69.98 +- 1.17  ep  19.8  seed 0       1024  drop 0.5/0.0/0.0  lr 0.0001  wd 0.01  ls 0
+06:36:41  [random ]  72.21 +- 1.32  ep  70.2  seed 0       1024  drop 0.3/0.6/0.0  lr 0.0001  wd 0  ls 0.1
+06:36:41            group of 70 models: 124 epochs in 142 s
+06:38:34  [random ]  71.58 +- 1.27  ep  12.2  seed 0   2048/256  drop 0.0/0.0/0.6  lr 0.0001  wd 0  ls 0.2
+06:38:34  [random ]  70.77 +- 1.11  ep  53.2  seed 0   2048/256  drop 0.5/0.7/0.3  lr 0.0001  wd 0.01  ls 0.05
+06:38:34  [random ]  70.90 +- 1.29  ep  19.8  seed 0   2048/256  drop 0.0/0.8/0.3  lr 0.0001  wd 0.01  ls 0.05
+06:38:34  [random ]  71.11 +- 1.01  ep  63.0  seed 0   2048/256  drop 0.5/0.7/0.2  lr 0.0001  wd 0  ls 0.2
+06:38:34  [random ]  71.68 +- 1.30  ep  59.2  seed 0   2048/256  drop 0.4/0.5/0.7  lr 0.0001  wd 0.1  ls 0.2
+06:38:34  [random ]  70.56 +- 1.04  ep  21.0  seed 0   2048/256  drop 0.3/0.7/0.2  lr 0.0001  wd 0  ls 0
+06:38:34  [random ]  71.76 +- 1.24  ep  28.6  seed 0   2048/256  drop 0.2/0.2/0.7  lr 0.0001  wd 0  ls 0.2
+06:38:34  [random ]  70.88 +- 1.37  ep  19.4  seed 0   2048/256  drop 0.3/0.2/0.0  lr 0.0001  wd 0.1  ls 0.2
+06:38:34            group of 40 models: 90 epochs in 113 s
+06:40:55  [random ]  71.64 +- 1.12  ep  67.0  seed 0       2048  drop 0.3/0.4/0.0  lr 3e-05  wd 0.01  ls 0.05
+06:40:55  [random ]  70.56 +- 1.46  ep  38.6  seed 0       2048  drop 0.2/0.5/0.0  lr 3e-05  wd 0.1  ls 0
+06:40:55  [random ]  71.04 +- 1.13  ep  37.4  seed 0       2048  drop 0.1/0.4/0.0  lr 3e-05  wd 0.1  ls 0.05
+06:40:55  [random ]  70.79 +- 0.94  ep  38.2  seed 0       2048  drop 0.0/0.7/0.0  lr 3e-05  wd 0.01  ls 0
+06:40:55  [random ]  71.18 +- 1.21  ep  30.2  seed 0       2048  drop 0.1/0.0/0.0  lr 3e-05  wd 0.01  ls 0.2
+06:40:55  [random ]  70.58 +- 1.35  ep  24.4  seed 0       2048  drop 0.1/0.2/0.0  lr 3e-05  wd 0.01  ls 0
+06:40:55  [random ]  70.74 +- 1.08  ep  53.8  seed 0       2048  drop 0.2/0.7/0.0  lr 3e-05  wd 0  ls 0
+06:40:55  [random ]  70.70 +- 1.06  ep  21.2  seed 0       2048  drop 0.0/0.0/0.0  lr 3e-05  wd 0.1  ls 0.05
+06:40:55            group of 40 models: 108 epochs in 141 s
+06:44:04  [random ]  71.77 +- 1.09  ep  58.0  seed 0       4096  drop 0.3/0.4/0.0  lr 3e-05  wd 0  ls 0.2
+06:44:04  [random ]  71.21 +- 1.16  ep  78.6  seed 0       4096  drop 0.5/0.4/0.0  lr 3e-05  wd 0.1  ls 0.05
+06:44:04  [random ]  71.84 +- 1.24  ep  40.6  seed 0       4096  drop 0.1/0.4/0.0  lr 3e-05  wd 0.01  ls 0.2
+06:44:04  [random ]  71.71 +- 1.16  ep  38.6  seed 0       4096  drop 0.0/0.5/0.0  lr 3e-05  wd 0  ls 0.2
+06:44:04            group of 20 models: 112 epochs in 189 s
+06:49:38  [random ]  70.78 +- 1.10  ep 148.0  seed 0    1024/32  drop 0.0/0.8/0.6  lr 0.0001  wd 0.1  ls 0.1
+06:49:38  [random ]  70.22 +- 1.12  ep  13.6  seed 0    1024/32  drop 0.0/0.2/0.0  lr 0.0001  wd 0  ls 0.1
+06:49:38  [random ]  70.03 +- 1.23  ep 137.4  seed 0    1024/32  drop 0.0/0.8/0.7  lr 0.0001  wd 0.01  ls 0.05
+06:49:38  [random ]  70.84 +- 1.31  ep  29.6  seed 0    1024/32  drop 0.4/0.0/0.2  lr 0.0001  wd 0.1  ls 0
+06:49:38  [random ]  70.18 +- 1.03  ep  36.6  seed 0    1024/32  drop 0.0/0.5/0.6  lr 0.0001  wd 0.1  ls 0
+06:49:38  [random ]  71.27 +- 1.03  ep 112.6  seed 0    1024/32  drop 0.3/0.5/0.6  lr 0.0001  wd 0  ls 0.1
+06:49:38  [random ]  70.85 +- 1.14  ep  48.0  seed 0    1024/32  drop 0.5/0.2/0.0  lr 0.0001  wd 0  ls 0.1
+06:49:38  [random ]  71.10 +- 0.96  ep  62.4  seed 0    1024/32  drop 0.5/0.4/0.0  lr 0.0001  wd 0.1  ls 0.1
+06:49:38  [random ]  70.26 +- 1.03  ep 132.8  seed 0    1024/32  drop 0.4/0.4/0.7  lr 0.0001  wd 0.01  ls 0.05
+06:49:38  [random ]  70.16 +- 1.16  ep  28.0  seed 0    1024/32  drop 0.0/0.5/0.5  lr 0.0001  wd 0.1  ls 0
+06:49:38  [random ]  70.98 +- 0.82  ep  92.8  seed 0    1024/32  drop 0.5/0.5/0.2  lr 0.0001  wd 0  ls 0.1
+06:49:38  [random ]  71.45 +- 1.27  ep  81.8  seed 0    1024/32  drop 0.4/0.7/0.0  lr 0.0001  wd 0.01  ls 0.1
+06:49:38  [random ]  70.35 +- 1.28  ep  17.6  seed 0    1024/32  drop 0.3/0.2/0.0  lr 0.0001  wd 0.1  ls 0
+06:49:38  [random ]  71.02 +- 1.19  ep  50.0  seed 0    1024/32  drop 0.5/0.2/0.0  lr 0.0001  wd 0.1  ls 0.2
+06:49:38  [random ]  69.56 +- 1.33  ep  87.6  seed 0    1024/32  drop 0.4/0.2/0.7  lr 0.0001  wd 0.01  ls 0
+06:49:38  [random ]  71.20 +- 1.06  ep 108.8  seed 0    1024/32  drop 0.3/0.2/0.7  lr 0.0001  wd 0.1  ls 0.2
+06:49:38            group of 80 models: 182 epochs in 334 s
+06:53:21  [random ]  71.10 +- 1.32  ep  55.6  seed 0    4096/32  drop 0.0/0.7/0.6  lr 0.0001  wd 0.1  ls 0.1
+06:53:21  [random ]  71.11 +- 1.44  ep  83.0  seed 0    4096/32  drop 0.3/0.6/0.6  lr 0.0001  wd 0.1  ls 0.2
+06:53:21  [random ]  70.09 +- 1.12  ep  16.8  seed 0    4096/32  drop 0.0/0.4/0.5  lr 0.0001  wd 0.01  ls 0
+06:53:21  [random ]  67.33 +- 1.12  ep  94.8  seed 0    4096/32  drop 0.3/0.8/0.7  lr 0.0001  wd 0  ls 0.1
+06:53:21            group of 20 models: 158 epochs in 223 s
+06:53:21  Phase 1 done: 283 runs
+06:54:49  [confirm]  71.72 +- 1.11  ep  34.6  seed 1   1024/256  drop 0.1/0.4/0.6  lr 0.0001  wd 0.01  ls 0.2
+06:54:49  [confirm]  71.72 +- 1.33  ep  32.8  seed 2   1024/256  drop 0.1/0.4/0.6  lr 0.0001  wd 0.01  ls 0.2
+06:54:49  [confirm]  71.94 +- 1.40  ep  37.0  seed 1   1024/256  drop 0.1/0.4/0.6  lr 0.0001  wd 0  ls 0.2
+06:54:49  [confirm]  72.05 +- 1.13  ep  36.4  seed 2   1024/256  drop 0.1/0.4/0.6  lr 0.0001  wd 0  ls 0.2
+06:54:49            group of 20 models: 59 epochs in 88 s
+07:00:10  [confirm]  71.88 +- 1.19  ep 195.4  seed 1    4096/64  drop 0.1/0.8/0.7  lr 3e-05  wd 0.01  ls 0.05
+07:00:10  [confirm]  71.89 +- 0.95  ep 187.4  seed 2    4096/64  drop 0.1/0.8/0.7  lr 3e-05  wd 0.01  ls 0.05
+07:00:10            group of 10 models: 268 epochs in 321 s
+07:05:17  [confirm]  71.86 +- 1.37  ep  97.6  seed 1    2048/32  drop 0.1/0.4/0.3  lr 3e-05  wd 0.01  ls 0.1
+07:05:18  [confirm]  72.26 +- 1.35  ep  97.0  seed 2    2048/32  drop 0.1/0.4/0.3  lr 3e-05  wd 0.01  ls 0.1
+07:05:18  [confirm]  71.80 +- 1.30  ep 163.4  seed 1    2048/32  drop 0.1/0.5/0.6  lr 3e-05  wd 0  ls 0.05
+07:05:18  [confirm]  72.07 +- 1.30  ep 168.4  seed 2    2048/32  drop 0.1/0.5/0.6  lr 3e-05  wd 0  ls 0.05
+07:05:18  [confirm]  72.01 +- 1.15  ep 116.0  seed 1    2048/32  drop 0.0/0.7/0.2  lr 3e-05  wd 0.01  ls 0.2
+07:05:18  [confirm]  71.86 +- 1.24  ep 116.0  seed 2    2048/32  drop 0.0/0.7/0.2  lr 3e-05  wd 0.01  ls 0.2
+07:05:18            group of 30 models: 254 epochs in 307 s
+07:06:43  [confirm]  71.92 +- 1.47  ep  55.0  seed 1       1024  drop 0.3/0.6/0.0  lr 0.0001  wd 0  ls 0.1
+07:06:43  [confirm]  71.91 +- 1.04  ep  58.6  seed 2       1024  drop 0.3/0.6/0.0  lr 0.0001  wd 0  ls 0.1
+07:06:43  [confirm]  71.74 +- 1.55  ep  80.2  seed 1       1024  drop 0.2/0.8/0.0  lr 0.0001  wd 0.01  ls 0.1
+07:06:43  [confirm]  71.63 +- 1.43  ep  76.6  seed 2       1024  drop 0.2/0.8/0.0  lr 0.0001  wd 0.01  ls 0.1
+07:06:43  [confirm]  71.77 +- 0.86  ep  44.4  seed 1       1024  drop 0.3/0.4/0.0  lr 0.0001  wd 0  ls 0.2
+07:06:43  [confirm]  72.19 +- 0.84  ep  46.6  seed 2       1024  drop 0.3/0.4/0.0  lr 0.0001  wd 0  ls 0.2
+07:06:43  [confirm]  71.92 +- 1.74  ep  62.8  seed 1       1024  drop 0.3/0.6/0.0  lr 0.0001  wd 0.01  ls 0.2
+07:06:43  [confirm]  72.38 +- 1.35  ep  64.2  seed 2       1024  drop 0.3/0.6/0.0  lr 0.0001  wd 0.01  ls 0.2
+07:06:43            group of 40 models: 120 epochs in 85 s
+07:11:04  [confirm]  72.22 +- 1.06  ep 124.8  seed 1    1024/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:11:04  [confirm]  72.11 +- 1.45  ep 138.6  seed 2    1024/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:11:04  [confirm]  71.99 +- 1.21  ep 126.0  seed 1    1024/32  drop 0.2/0.0/0.6  lr 3e-05  wd 0  ls 0.2
+07:11:04  [confirm]  71.80 +- 1.45  ep 138.4  seed 2    1024/32  drop 0.2/0.0/0.6  lr 3e-05  wd 0  ls 0.2
+07:11:04            group of 20 models: 180 epochs in 262 s
+07:14:34  [confirm]  72.08 +- 1.40  ep  93.2  seed 1   1024/128  drop 0.0/0.5/0.6  lr 3e-05  wd 0.1  ls 0.2
+07:14:34  [confirm]  71.97 +- 1.35  ep 102.4  seed 2   1024/128  drop 0.0/0.5/0.6  lr 3e-05  wd 0.1  ls 0.2
+07:14:34  [confirm]  72.00 +- 1.08  ep 117.2  seed 1   1024/128  drop 0.1/0.5/0.5  lr 3e-05  wd 0  ls 0.2
+07:14:34  [confirm]  72.07 +- 1.06  ep 109.4  seed 2   1024/128  drop 0.1/0.5/0.5  lr 3e-05  wd 0  ls 0.2
+07:14:34            group of 20 models: 161 epochs in 209 s
+07:15:29  [confirm]  71.90 +- 1.19  ep  33.6  seed 1    4096/64  drop 0.3/0.0/0.6  lr 0.0001  wd 0  ls 0.1
+07:15:29  [confirm]  71.45 +- 1.28  ep  31.2  seed 2    4096/64  drop 0.3/0.0/0.6  lr 0.0001  wd 0  ls 0.1
+07:15:29            group of 10 models: 50 epochs in 56 s
+07:15:29  Center: 72.13    1024/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:17:35  [sweep1 ]  72.21 +- 1.26  ep 109.4  seed 0    2048/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:17:35  [sweep1 ]  72.36 +- 1.14  ep 114.8  seed 1    2048/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:17:35  [sweep1 ]  72.14 +- 1.37  ep 100.2  seed 2    2048/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:17:35            group of 15 models: 157 epochs in 126 s
+07:19:51  [sweep1 ]  72.35 +- 1.25  ep  79.2  seed 0    4096/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:19:51  [sweep1 ]  71.98 +- 0.94  ep  75.2  seed 1    4096/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:19:51  [sweep1 ]  72.22 +- 1.45  ep  80.2  seed 2    4096/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:19:51            group of 15 models: 113 epochs in 136 s
+07:21:12  [sweep1 ]  71.78 +- 1.10  ep  90.8  seed 0       1024  drop 0.2/0.4/0.0  lr 3e-05  wd 0  ls 0.2
+07:21:12  [sweep1 ]  71.85 +- 1.47  ep  99.2  seed 1       1024  drop 0.2/0.4/0.0  lr 3e-05  wd 0  ls 0.2
+07:21:12  [sweep1 ]  71.86 +- 1.30  ep  99.4  seed 2       1024  drop 0.2/0.4/0.0  lr 3e-05  wd 0  ls 0.2
+07:21:12            group of 15 models: 131 epochs in 81 s
+07:24:12  [sweep1 ]  72.19 +- 1.80  ep 111.6  seed 0    1024/64  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:24:12  [sweep1 ]  71.96 +- 1.26  ep  94.8  seed 1    1024/64  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:24:12  [sweep1 ]  71.85 +- 1.43  ep 111.2  seed 2    1024/64  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:24:12            group of 15 models: 160 epochs in 180 s
+07:26:01  [sweep1 ]  71.94 +- 1.07  ep 104.0  seed 0   1024/128  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:26:01  [sweep1 ]  72.01 +- 1.01  ep  82.0  seed 1   1024/128  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:26:01  [sweep1 ]  71.73 +- 1.28  ep  78.6  seed 2   1024/128  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:26:01            group of 15 models: 118 epochs in 108 s
+07:27:49  [sweep1 ]  72.09 +- 1.40  ep  89.6  seed 0   1024/256  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:27:49  [sweep1 ]  71.76 +- 1.10  ep  78.0  seed 1   1024/256  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:27:49  [sweep1 ]  71.82 +- 1.18  ep  83.2  seed 2   1024/256  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:27:49            group of 15 models: 120 epochs in 109 s
+07:35:56  [sweep1 ]  71.92 +- 1.30  ep  88.2  seed 0    1024/32  drop 0.0/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:35:56  [sweep1 ]  71.92 +- 1.29  ep  90.8  seed 1    1024/32  drop 0.0/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:35:56  [sweep1 ]  71.77 +- 1.31  ep  90.2  seed 2    1024/32  drop 0.0/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:35:56  [sweep1 ]  71.86 +- 1.05  ep 105.4  seed 0    1024/32  drop 0.1/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:35:56  [sweep1 ]  72.17 +- 1.50  ep 104.6  seed 1    1024/32  drop 0.1/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:35:56  [sweep1 ]  71.87 +- 1.08  ep 112.8  seed 2    1024/32  drop 0.1/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:35:56  [sweep1 ]  72.11 +- 1.40  ep 152.0  seed 0    1024/32  drop 0.3/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:35:56  [sweep1 ]  72.24 +- 1.25  ep 168.4  seed 1    1024/32  drop 0.3/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:35:56  [sweep1 ]  71.86 +- 1.15  ep 179.0  seed 2    1024/32  drop 0.3/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:35:56  [sweep1 ]  71.77 +- 1.20  ep 184.0  seed 0    1024/32  drop 0.4/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:35:56  [sweep1 ]  71.50 +- 1.12  ep 157.6  seed 1    1024/32  drop 0.4/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:35:56  [sweep1 ]  71.79 +- 1.43  ep 174.2  seed 2    1024/32  drop 0.4/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:35:56  [sweep1 ]  71.31 +- 1.16  ep 193.0  seed 0    1024/32  drop 0.5/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:35:56  [sweep1 ]  71.31 +- 1.18  ep 170.8  seed 1    1024/32  drop 0.5/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:35:56  [sweep1 ]  71.21 +- 1.02  ep 191.8  seed 2    1024/32  drop 0.5/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+07:35:56  [sweep1 ]  71.94 +- 1.60  ep  84.8  seed 0    1024/32  drop 0.2/0.0/0.2  lr 3e-05  wd 0  ls 0.2
+07:35:56            group of 80 models: 262 epochs in 487 s
+07:44:13  [sweep1 ]  71.58 +- 1.26  ep  83.2  seed 1    1024/32  drop 0.2/0.0/0.2  lr 3e-05  wd 0  ls 0.2
+07:44:13  [sweep1 ]  71.89 +- 1.31  ep  83.4  seed 2    1024/32  drop 0.2/0.0/0.2  lr 3e-05  wd 0  ls 0.2
+07:44:13  [sweep1 ]  71.72 +- 1.39  ep 108.2  seed 0    1024/32  drop 0.2/0.2/0.2  lr 3e-05  wd 0  ls 0.2
+07:44:13  [sweep1 ]  71.85 +- 1.24  ep 105.0  seed 1    1024/32  drop 0.2/0.2/0.2  lr 3e-05  wd 0  ls 0.2
+07:44:13  [sweep1 ]  71.95 +- 1.22  ep  98.8  seed 2    1024/32  drop 0.2/0.2/0.2  lr 3e-05  wd 0  ls 0.2
+07:44:13  [sweep1 ]  72.23 +- 1.20  ep 151.0  seed 0    1024/32  drop 0.2/0.5/0.2  lr 3e-05  wd 0  ls 0.2
+07:44:13  [sweep1 ]  71.87 +- 1.27  ep 155.0  seed 1    1024/32  drop 0.2/0.5/0.2  lr 3e-05  wd 0  ls 0.2
+07:44:13  [sweep1 ]  72.19 +- 1.35  ep 165.0  seed 2    1024/32  drop 0.2/0.5/0.2  lr 3e-05  wd 0  ls 0.2
+07:44:13  [sweep1 ]  71.98 +- 1.41  ep 169.0  seed 0    1024/32  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+07:44:13  [sweep1 ]  72.06 +- 1.34  ep 166.0  seed 1    1024/32  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+07:44:13  [sweep1 ]  72.15 +- 1.24  ep 173.4  seed 2    1024/32  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+07:44:13  [sweep1 ]  71.79 +- 1.50  ep 196.4  seed 0    1024/32  drop 0.2/0.7/0.2  lr 3e-05  wd 0  ls 0.2
+07:44:13  [sweep1 ]  71.32 +- 1.24  ep 151.2  seed 1    1024/32  drop 0.2/0.7/0.2  lr 3e-05  wd 0  ls 0.2
+07:44:13  [sweep1 ]  71.70 +- 1.59  ep 182.6  seed 2    1024/32  drop 0.2/0.7/0.2  lr 3e-05  wd 0  ls 0.2
+07:44:13  [sweep1 ]  71.35 +- 1.23  ep 201.8  seed 0    1024/32  drop 0.2/0.8/0.2  lr 3e-05  wd 0  ls 0.2
+07:44:13  [sweep1 ]  71.00 +- 1.20  ep 198.0  seed 1    1024/32  drop 0.2/0.8/0.2  lr 3e-05  wd 0  ls 0.2
+07:44:13            group of 80 models: 300 epochs in 496 s
+07:52:50  [sweep1 ]  71.50 +- 1.17  ep 217.4  seed 2    1024/32  drop 0.2/0.8/0.2  lr 3e-05  wd 0  ls 0.2
+07:52:50  [sweep1 ]  71.79 +- 1.47  ep 109.8  seed 0    1024/32  drop 0.2/0.4/0.0  lr 3e-05  wd 0  ls 0.2
+07:52:50  [sweep1 ]  71.87 +- 1.12  ep 108.6  seed 1    1024/32  drop 0.2/0.4/0.0  lr 3e-05  wd 0  ls 0.2
+07:52:50  [sweep1 ]  71.93 +- 1.35  ep 104.2  seed 2    1024/32  drop 0.2/0.4/0.0  lr 3e-05  wd 0  ls 0.2
+07:52:50  [sweep1 ]  71.99 +- 1.22  ep 148.8  seed 0    1024/32  drop 0.2/0.4/0.3  lr 3e-05  wd 0  ls 0.2
+07:52:50  [sweep1 ]  72.08 +- 1.11  ep 147.6  seed 1    1024/32  drop 0.2/0.4/0.3  lr 3e-05  wd 0  ls 0.2
+07:52:50  [sweep1 ]  72.17 +- 1.19  ep 141.2  seed 2    1024/32  drop 0.2/0.4/0.3  lr 3e-05  wd 0  ls 0.2
+07:52:50  [sweep1 ]  72.06 +- 1.06  ep 170.0  seed 0    1024/32  drop 0.2/0.4/0.5  lr 3e-05  wd 0  ls 0.2
+07:52:50  [sweep1 ]  71.62 +- 1.05  ep 148.6  seed 1    1024/32  drop 0.2/0.4/0.5  lr 3e-05  wd 0  ls 0.2
+07:52:50  [sweep1 ]  72.29 +- 1.31  ep 185.4  seed 2    1024/32  drop 0.2/0.4/0.5  lr 3e-05  wd 0  ls 0.2
+07:52:50  [sweep1 ]  71.66 +- 1.17  ep 167.2  seed 0    1024/32  drop 0.2/0.4/0.6  lr 3e-05  wd 0  ls 0.2
+07:52:50  [sweep1 ]  71.72 +- 0.77  ep 178.8  seed 1    1024/32  drop 0.2/0.4/0.6  lr 3e-05  wd 0  ls 0.2
+07:52:50  [sweep1 ]  71.57 +- 1.32  ep 167.8  seed 2    1024/32  drop 0.2/0.4/0.6  lr 3e-05  wd 0  ls 0.2
+07:52:50  [sweep1 ]  71.40 +- 1.02  ep 195.6  seed 0    1024/32  drop 0.2/0.4/0.7  lr 3e-05  wd 0  ls 0.2
+07:52:50  [sweep1 ]  71.07 +- 0.80  ep 176.6  seed 1    1024/32  drop 0.2/0.4/0.7  lr 3e-05  wd 0  ls 0.2
+07:52:50  [sweep1 ]  71.40 +- 1.14  ep 199.8  seed 2    1024/32  drop 0.2/0.4/0.7  lr 3e-05  wd 0  ls 0.2
+07:52:50            group of 80 models: 300 epochs in 518 s
+07:58:34  [sweep1 ]  71.75 +- 1.34  ep 117.6  seed 0    1024/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0.01  ls 0.2
+07:58:34  [sweep1 ]  71.71 +- 1.24  ep 118.4  seed 1    1024/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0.01  ls 0.2
+07:58:34  [sweep1 ]  71.73 +- 1.49  ep 121.8  seed 2    1024/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0.01  ls 0.2
+07:58:34  [sweep1 ]  72.37 +- 1.47  ep 143.2  seed 0    1024/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0.1  ls 0.2
+07:58:34  [sweep1 ]  71.86 +- 1.03  ep 131.6  seed 1    1024/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0.1  ls 0.2
+07:58:34  [sweep1 ]  72.12 +- 1.30  ep 142.0  seed 2    1024/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0.1  ls 0.2
+07:58:34  [sweep1 ]  70.55 +- 1.24  ep  67.4  seed 0    1024/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0
+07:58:34  [sweep1 ]  70.73 +- 1.33  ep  71.6  seed 1    1024/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0
+07:58:34  [sweep1 ]  70.77 +- 1.55  ep  69.8  seed 2    1024/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0
+07:58:34  [sweep1 ]  71.71 +- 1.40  ep 121.6  seed 0    1024/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.05
+07:58:34  [sweep1 ]  71.58 +- 1.24  ep 105.2  seed 1    1024/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.05
+07:58:34  [sweep1 ]  71.48 +- 1.14  ep 109.4  seed 2    1024/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.05
+07:58:34  [sweep1 ]  71.78 +- 1.31  ep 135.2  seed 0    1024/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.1
+07:58:34  [sweep1 ]  71.56 +- 1.08  ep 132.6  seed 1    1024/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.1
+07:58:34  [sweep1 ]  71.94 +- 1.68  ep 136.4  seed 2    1024/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.1
+07:58:34            group of 75 models: 182 epochs in 343 s
+08:00:11  [sweep1 ]  72.27 +- 1.35  ep  56.4  seed 0    1024/32  drop 0.2/0.4/0.2  lr 0.0001  wd 0  ls 0.2
+08:00:11  [sweep1 ]  72.02 +- 1.36  ep  56.2  seed 1    1024/32  drop 0.2/0.4/0.2  lr 0.0001  wd 0  ls 0.2
+08:00:11  [sweep1 ]  71.87 +- 1.47  ep  49.6  seed 2    1024/32  drop 0.2/0.4/0.2  lr 0.0001  wd 0  ls 0.2
+08:00:11            group of 15 models: 85 epochs in 97 s
+08:01:01  [sweep1 ]  71.15 +- 1.48  ep  27.0  seed 0    1024/32  drop 0.2/0.4/0.2  lr 0.0003  wd 0  ls 0.2
+08:01:01  [sweep1 ]  70.75 +- 1.41  ep  23.6  seed 1    1024/32  drop 0.2/0.4/0.2  lr 0.0003  wd 0  ls 0.2
+08:01:01  [sweep1 ]  71.06 +- 1.11  ep  28.8  seed 2    1024/32  drop 0.2/0.4/0.2  lr 0.0003  wd 0  ls 0.2
+08:01:01            group of 15 models: 50 epochs in 51 s
+08:01:01  After sweep 1: best 72.24    2048/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+08:02:49  [sweep2 ]  71.86 +- 1.06  ep  77.0  seed 0       2048  drop 0.2/0.4/0.0  lr 3e-05  wd 0  ls 0.2
+08:02:49  [sweep2 ]  71.73 +- 1.13  ep  62.6  seed 1       2048  drop 0.2/0.4/0.0  lr 3e-05  wd 0  ls 0.2
+08:02:49  [sweep2 ]  71.84 +- 1.04  ep  68.0  seed 2       2048  drop 0.2/0.4/0.0  lr 3e-05  wd 0  ls 0.2
+08:02:49            group of 15 models: 100 epochs in 107 s
+08:04:38  [sweep2 ]  72.35 +- 1.28  ep  82.6  seed 0    2048/64  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+08:04:38  [sweep2 ]  71.77 +- 1.28  ep  83.4  seed 1    2048/64  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+08:04:38  [sweep2 ]  71.56 +- 1.06  ep  68.4  seed 2    2048/64  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+08:04:38            group of 15 models: 109 epochs in 109 s
+08:06:10  [sweep2 ]  72.07 +- 1.16  ep  66.0  seed 0   2048/128  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+08:06:10  [sweep2 ]  71.87 +- 0.92  ep  70.8  seed 1   2048/128  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+08:06:10  [sweep2 ]  71.94 +- 0.98  ep  69.2  seed 2   2048/128  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+08:06:10            group of 15 models: 100 epochs in 92 s
+08:07:42  [sweep2 ]  71.98 +- 1.24  ep  67.0  seed 0   2048/256  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+08:07:42  [sweep2 ]  72.06 +- 1.09  ep  65.2  seed 1   2048/256  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+08:07:42  [sweep2 ]  71.93 +- 1.13  ep  60.4  seed 2   2048/256  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+08:07:42            group of 15 models: 97 epochs in 92 s
+08:12:23  [sweep2 ]  71.86 +- 0.97  ep  70.0  seed 0    2048/32  drop 0.0/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+08:12:23  [sweep2 ]  71.65 +- 1.04  ep  67.0  seed 1    2048/32  drop 0.0/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+08:12:23  [sweep2 ]  71.41 +- 1.06  ep  66.6  seed 2    2048/32  drop 0.0/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+08:12:23  [sweep2 ]  71.84 +- 1.33  ep  78.8  seed 0    2048/32  drop 0.1/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+08:12:23  [sweep2 ]  72.28 +- 1.16  ep  80.8  seed 1    2048/32  drop 0.1/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+08:12:23  [sweep2 ]  72.19 +- 1.35  ep  81.0  seed 2    2048/32  drop 0.1/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+08:12:23  [sweep2 ]  71.77 +- 1.38  ep 116.4  seed 0    2048/32  drop 0.3/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+08:12:23  [sweep2 ]  72.03 +- 1.14  ep 118.8  seed 1    2048/32  drop 0.3/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+08:12:23            group of 40 models: 165 epochs in 281 s
+08:18:17  [sweep2 ]  72.38 +- 1.19  ep 127.0  seed 2    2048/32  drop 0.3/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+08:18:17  [sweep2 ]  71.90 +- 1.07  ep 133.8  seed 0    2048/32  drop 0.4/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+08:18:17  [sweep2 ]  71.32 +- 1.49  ep 126.6  seed 1    2048/32  drop 0.4/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+08:18:17  [sweep2 ]  71.53 +- 1.17  ep 127.0  seed 2    2048/32  drop 0.4/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+08:18:17  [sweep2 ]  71.60 +- 1.40  ep 200.2  seed 0    2048/32  drop 0.5/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+08:18:17  [sweep2 ]  71.44 +- 1.38  ep 166.4  seed 1    2048/32  drop 0.5/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+08:18:17  [sweep2 ]  71.02 +- 1.04  ep 131.4  seed 2    2048/32  drop 0.5/0.4/0.2  lr 3e-05  wd 0  ls 0.2
+08:18:17  [sweep2 ]  71.69 +- 1.45  ep  69.0  seed 0    2048/32  drop 0.2/0.0/0.2  lr 3e-05  wd 0  ls 0.2
+08:18:17            group of 40 models: 241 epochs in 353 s
+08:23:17  [sweep2 ]  71.79 +- 1.03  ep  72.8  seed 1    2048/32  drop 0.2/0.0/0.2  lr 3e-05  wd 0  ls 0.2
+08:23:17  [sweep2 ]  71.51 +- 1.15  ep  66.0  seed 2    2048/32  drop 0.2/0.0/0.2  lr 3e-05  wd 0  ls 0.2
+08:23:18  [sweep2 ]  72.14 +- 1.41  ep  92.0  seed 0    2048/32  drop 0.2/0.2/0.2  lr 3e-05  wd 0  ls 0.2
+08:23:18  [sweep2 ]  71.85 +- 1.25  ep  81.0  seed 1    2048/32  drop 0.2/0.2/0.2  lr 3e-05  wd 0  ls 0.2
+08:23:18  [sweep2 ]  72.25 +- 1.11  ep  88.0  seed 2    2048/32  drop 0.2/0.2/0.2  lr 3e-05  wd 0  ls 0.2
+08:23:18  [sweep2 ]  72.36 +- 1.29  ep 117.4  seed 0    2048/32  drop 0.2/0.5/0.2  lr 3e-05  wd 0  ls 0.2
+08:23:18  [sweep2 ]  72.19 +- 1.06  ep 126.6  seed 1    2048/32  drop 0.2/0.5/0.2  lr 3e-05  wd 0  ls 0.2
+08:23:18  [sweep2 ]  72.03 +- 1.36  ep 116.8  seed 2    2048/32  drop 0.2/0.5/0.2  lr 3e-05  wd 0  ls 0.2
+08:23:18            group of 40 models: 159 epochs in 301 s
+08:31:23  [sweep2 ]  72.24 +- 1.08  ep 151.6  seed 0    2048/32  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+08:31:23  [sweep2 ]  72.55 +- 1.58  ep 134.0  seed 1    2048/32  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+08:31:23  [sweep2 ]  72.14 +- 1.05  ep 129.4  seed 2    2048/32  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+08:31:23  [sweep2 ]  71.75 +- 1.35  ep 139.8  seed 0    2048/32  drop 0.2/0.7/0.2  lr 3e-05  wd 0  ls 0.2
+08:31:23  [sweep2 ]  71.91 +- 1.21  ep 143.8  seed 1    2048/32  drop 0.2/0.7/0.2  lr 3e-05  wd 0  ls 0.2
+08:31:23  [sweep2 ]  71.86 +- 1.40  ep 142.8  seed 2    2048/32  drop 0.2/0.7/0.2  lr 3e-05  wd 0  ls 0.2
+08:31:23  [sweep2 ]  71.64 +- 1.33  ep 184.2  seed 0    2048/32  drop 0.2/0.8/0.2  lr 3e-05  wd 0  ls 0.2
+08:31:23  [sweep2 ]  71.72 +- 1.23  ep 186.6  seed 1    2048/32  drop 0.2/0.8/0.2  lr 3e-05  wd 0  ls 0.2
+08:31:23            group of 40 models: 223 epochs in 485 s
+08:38:30  [sweep2 ]  72.21 +- 0.91  ep 216.4  seed 2    2048/32  drop 0.2/0.8/0.2  lr 3e-05  wd 0  ls 0.2
+08:38:30  [sweep2 ]  72.02 +- 1.18  ep  85.8  seed 0    2048/32  drop 0.2/0.4/0.0  lr 3e-05  wd 0  ls 0.2
+08:38:30  [sweep2 ]  71.57 +- 1.04  ep  76.4  seed 1    2048/32  drop 0.2/0.4/0.0  lr 3e-05  wd 0  ls 0.2
+08:38:30  [sweep2 ]  71.74 +- 1.04  ep  78.8  seed 2    2048/32  drop 0.2/0.4/0.0  lr 3e-05  wd 0  ls 0.2
+08:38:30  [sweep2 ]  72.13 +- 1.15  ep 119.0  seed 0    2048/32  drop 0.2/0.4/0.3  lr 3e-05  wd 0  ls 0.2
+08:38:30  [sweep2 ]  72.22 +- 1.29  ep 112.0  seed 1    2048/32  drop 0.2/0.4/0.3  lr 3e-05  wd 0  ls 0.2
+08:38:30  [sweep2 ]  72.29 +- 1.20  ep 111.4  seed 2    2048/32  drop 0.2/0.4/0.3  lr 3e-05  wd 0  ls 0.2
+08:38:30  [sweep2 ]  71.88 +- 1.18  ep 143.0  seed 0    2048/32  drop 0.2/0.4/0.5  lr 3e-05  wd 0  ls 0.2
+08:38:30            group of 40 models: 251 epochs in 427 s
+08:46:21  [sweep2 ]  72.08 +- 1.28  ep 138.8  seed 1    2048/32  drop 0.2/0.4/0.5  lr 3e-05  wd 0  ls 0.2
+08:46:21  [sweep2 ]  72.17 +- 1.08  ep 146.8  seed 2    2048/32  drop 0.2/0.4/0.5  lr 3e-05  wd 0  ls 0.2
+08:46:21  [sweep2 ]  71.90 +- 1.19  ep 146.6  seed 0    2048/32  drop 0.2/0.4/0.6  lr 3e-05  wd 0  ls 0.2
+08:46:21  [sweep2 ]  72.08 +- 1.22  ep 167.2  seed 1    2048/32  drop 0.2/0.4/0.6  lr 3e-05  wd 0  ls 0.2
+08:46:21  [sweep2 ]  72.08 +- 1.27  ep 155.6  seed 2    2048/32  drop 0.2/0.4/0.6  lr 3e-05  wd 0  ls 0.2
+08:46:21  [sweep2 ]  71.50 +- 0.72  ep 155.8  seed 0    2048/32  drop 0.2/0.4/0.7  lr 3e-05  wd 0  ls 0.2
+08:46:21  [sweep2 ]  71.76 +- 1.08  ep 167.6  seed 1    2048/32  drop 0.2/0.4/0.7  lr 3e-05  wd 0  ls 0.2
+08:46:21  [sweep2 ]  71.70 +- 1.17  ep 171.4  seed 2    2048/32  drop 0.2/0.4/0.7  lr 3e-05  wd 0  ls 0.2
+08:46:21            group of 40 models: 254 epochs in 471 s
+08:50:26  [sweep2 ]  72.03 +- 1.15  ep 120.4  seed 0    2048/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0.01  ls 0.2
+08:50:26  [sweep2 ]  72.41 +- 1.46  ep 109.6  seed 1    2048/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0.01  ls 0.2
+08:50:26  [sweep2 ]  72.20 +- 1.46  ep 114.2  seed 2    2048/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0.01  ls 0.2
+08:50:26  [sweep2 ]  72.01 +- 1.23  ep  93.0  seed 0    2048/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0.1  ls 0.2
+08:50:26  [sweep2 ]  72.12 +- 1.01  ep 114.4  seed 1    2048/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0.1  ls 0.2
+08:50:26  [sweep2 ]  72.12 +- 1.44  ep 108.8  seed 2    2048/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0.1  ls 0.2
+08:50:26  [sweep2 ]  70.68 +- 1.18  ep  53.8  seed 0    2048/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0
+08:50:26  [sweep2 ]  70.85 +- 1.32  ep  56.2  seed 1    2048/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0
+08:50:26            group of 40 models: 148 epochs in 245 s
+08:53:46  [sweep2 ]  70.58 +- 1.08  ep  55.6  seed 2    2048/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0
+08:53:46  [sweep2 ]  71.62 +- 1.74  ep  92.2  seed 0    2048/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.05
+08:53:46  [sweep2 ]  71.43 +- 1.35  ep  79.8  seed 1    2048/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.05
+08:53:46  [sweep2 ]  71.42 +- 1.30  ep  89.4  seed 2    2048/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.05
+08:53:46  [sweep2 ]  71.57 +- 1.22  ep 100.4  seed 0    2048/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.1
+08:53:46  [sweep2 ]  71.80 +- 1.27  ep  88.8  seed 1    2048/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.1
+08:53:46  [sweep2 ]  71.98 +- 1.14  ep 100.4  seed 2    2048/32  drop 0.2/0.4/0.2  lr 3e-05  wd 0  ls 0.1
+08:53:46            group of 35 models: 153 epochs in 200 s
+08:54:51  [sweep2 ]  71.56 +- 1.16  ep  42.8  seed 0    2048/32  drop 0.2/0.4/0.2  lr 0.0001  wd 0  ls 0.2
+08:54:51  [sweep2 ]  72.32 +- 1.02  ep  44.6  seed 1    2048/32  drop 0.2/0.4/0.2  lr 0.0001  wd 0  ls 0.2
+08:54:51  [sweep2 ]  71.63 +- 1.62  ep  35.8  seed 2    2048/32  drop 0.2/0.4/0.2  lr 0.0001  wd 0  ls 0.2
+08:54:51            group of 15 models: 62 epochs in 65 s
+08:55:26  [sweep2 ]  70.58 +- 1.13  ep  23.0  seed 0    2048/32  drop 0.2/0.4/0.2  lr 0.0003  wd 0  ls 0.2
+08:55:26  [sweep2 ]  71.03 +- 1.64  ep  20.6  seed 1    2048/32  drop 0.2/0.4/0.2  lr 0.0003  wd 0  ls 0.2
+08:55:26  [sweep2 ]  70.67 +- 0.99  ep  20.6  seed 2    2048/32  drop 0.2/0.4/0.2  lr 0.0003  wd 0  ls 0.2
+08:55:26            group of 15 models: 41 epochs in 35 s
+08:55:26  After sweep 2: best 72.31    2048/32  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+08:58:52  [sweep3 ]  72.35 +- 1.50  ep 105.8  seed 0    4096/32  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+08:58:52  [sweep3 ]  72.18 +- 0.83  ep 100.8  seed 1    4096/32  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+08:58:52  [sweep3 ]  72.31 +- 1.20  ep 114.0  seed 2    4096/32  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+08:58:52            group of 15 models: 150 epochs in 206 s
+09:01:23  [sweep3 ]  71.83 +- 1.05  ep  96.4  seed 0       2048  drop 0.2/0.6/0.0  lr 3e-05  wd 0  ls 0.2
+09:01:23  [sweep3 ]  72.07 +- 1.15  ep 102.0  seed 1       2048  drop 0.2/0.6/0.0  lr 3e-05  wd 0  ls 0.2
+09:01:23  [sweep3 ]  71.89 +- 1.47  ep  92.4  seed 2       2048  drop 0.2/0.6/0.0  lr 3e-05  wd 0  ls 0.2
+09:01:23            group of 15 models: 125 epochs in 151 s
+09:04:06  [sweep3 ]  72.38 +- 1.41  ep 120.6  seed 0    2048/64  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+09:04:06  [sweep3 ]  71.84 +- 1.09  ep 104.4  seed 1    2048/64  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+09:04:06  [sweep3 ]  72.22 +- 1.66  ep 118.6  seed 2    2048/64  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+09:04:06            group of 15 models: 143 epochs in 162 s
+09:06:36  [sweep3 ]  71.99 +- 0.88  ep  81.2  seed 0   2048/128  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+09:06:36  [sweep3 ]  72.18 +- 1.11  ep 101.8  seed 1   2048/128  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+09:06:36  [sweep3 ]  71.82 +- 1.11  ep  94.0  seed 2   2048/128  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+09:06:36            group of 15 models: 142 epochs in 150 s
+09:09:26  [sweep3 ]  72.06 +- 1.43  ep  82.0  seed 0   2048/256  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+09:09:26  [sweep3 ]  72.53 +- 1.32  ep 104.4  seed 1   2048/256  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+09:09:26  [sweep3 ]  72.09 +- 1.39  ep  84.2  seed 2   2048/256  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+09:09:26            group of 15 models: 129 epochs in 170 s
+09:17:13  [sweep3 ]  71.86 +- 1.11  ep  98.2  seed 0    2048/32  drop 0.0/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+09:17:13  [sweep3 ]  71.77 +- 1.26  ep  97.2  seed 1    2048/32  drop 0.0/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+09:17:13  [sweep3 ]  71.88 +- 0.82  ep  85.0  seed 2    2048/32  drop 0.0/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+09:17:13  [sweep3 ]  71.93 +- 1.73  ep 108.0  seed 0    2048/32  drop 0.1/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+09:17:13  [sweep3 ]  71.70 +- 1.17  ep 110.8  seed 1    2048/32  drop 0.1/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+09:17:13  [sweep3 ]  72.30 +- 0.97  ep 109.6  seed 2    2048/32  drop 0.1/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+09:17:13  [sweep3 ]  72.18 +- 1.01  ep 156.8  seed 0    2048/32  drop 0.3/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+09:17:13  [sweep3 ]  72.21 +- 1.22  ep 159.4  seed 1    2048/32  drop 0.3/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+09:17:13            group of 40 models: 243 epochs in 467 s
+09:25:51  [sweep3 ]  71.89 +- 1.27  ep 130.6  seed 2    2048/32  drop 0.3/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+09:25:51  [sweep3 ]  71.51 +- 1.11  ep 182.8  seed 0    2048/32  drop 0.4/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+09:25:51  [sweep3 ]  71.62 +- 0.98  ep 136.2  seed 1    2048/32  drop 0.4/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+09:25:51  [sweep3 ]  71.95 +- 1.36  ep 191.2  seed 2    2048/32  drop 0.4/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+09:25:51  [sweep3 ]  71.43 +- 1.01  ep 183.8  seed 0    2048/32  drop 0.5/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+09:25:51  [sweep3 ]  71.20 +- 0.94  ep 185.2  seed 1    2048/32  drop 0.5/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+09:25:51  [sweep3 ]  71.37 +- 1.15  ep 187.0  seed 2    2048/32  drop 0.5/0.6/0.2  lr 3e-05  wd 0  ls 0.2
+09:25:51  [sweep3 ]  71.75 +- 1.04  ep  97.8  seed 0    2048/32  drop 0.2/0.6/0.0  lr 3e-05  wd 0  ls 0.2
+09:25:51            group of 40 models: 268 epochs in 518 s
+09:33:02  [sweep3 ]  71.77 +- 1.09  ep 105.0  seed 1    2048/32  drop 0.2/0.6/0.0  lr 3e-05  wd 0  ls 0.2
+09:33:02  [sweep3 ]  72.24 +- 1.25  ep 113.0  seed 2    2048/32  drop 0.2/0.6/0.0  lr 3e-05  wd 0  ls 0.2
+09:33:02  [sweep3 ]  72.02 +- 1.17  ep 149.8  seed 0    2048/32  drop 0.2/0.6/0.3  lr 3e-05  wd 0  ls 0.2
+09:33:02  [sweep3 ]  71.85 +- 1.18  ep 133.0  seed 1    2048/32  drop 0.2/0.6/0.3  lr 3e-05  wd 0  ls 0.2
+09:33:02  [sweep3 ]  72.03 +- 1.49  ep 173.6  seed 2    2048/32  drop 0.2/0.6/0.3  lr 3e-05  wd 0  ls 0.2
+09:33:02  [sweep3 ]  72.03 +- 1.47  ep 165.0  seed 0    2048/32  drop 0.2/0.6/0.5  lr 3e-05  wd 0  ls 0.2
+09:33:02  [sweep3 ]  71.94 +- 1.15  ep 172.0  seed 1    2048/32  drop 0.2/0.6/0.5  lr 3e-05  wd 0  ls 0.2
+09:33:02  [sweep3 ]  71.85 +- 1.04  ep 175.8  seed 2    2048/32  drop 0.2/0.6/0.5  lr 3e-05  wd 0  ls 0.2
+09:33:02            group of 40 models: 251 epochs in 431 s
+09:41:19  [sweep3 ]  72.04 +- 1.39  ep 203.4  seed 0    2048/32  drop 0.2/0.6/0.6  lr 3e-05  wd 0  ls 0.2
+09:41:19  [sweep3 ]  71.95 +- 1.54  ep 211.8  seed 1    2048/32  drop 0.2/0.6/0.6  lr 3e-05  wd 0  ls 0.2
+09:41:19  [sweep3 ]  71.85 +- 1.05  ep 173.6  seed 2    2048/32  drop 0.2/0.6/0.6  lr 3e-05  wd 0  ls 0.2
+09:41:19  [sweep3 ]  71.04 +- 1.07  ep 183.0  seed 0    2048/32  drop 0.2/0.6/0.7  lr 3e-05  wd 0  ls 0.2
+09:41:19  [sweep3 ]  70.77 +- 0.74  ep 186.6  seed 1    2048/32  drop 0.2/0.6/0.7  lr 3e-05  wd 0  ls 0.2
+09:41:19  [sweep3 ]  71.13 +- 1.18  ep 179.4  seed 2    2048/32  drop 0.2/0.6/0.7  lr 3e-05  wd 0  ls 0.2
+09:41:19  [sweep3 ]  71.90 +- 1.26  ep 138.0  seed 0    2048/32  drop 0.2/0.6/0.2  lr 3e-05  wd 0.01  ls 0.2
+09:41:19  [sweep3 ]  72.08 +- 1.40  ep 144.6  seed 1    2048/32  drop 0.2/0.6/0.2  lr 3e-05  wd 0.01  ls 0.2
+09:41:19            group of 40 models: 300 epochs in 497 s
+09:45:49  [sweep3 ]  72.07 +- 1.07  ep 143.2  seed 2    2048/32  drop 0.2/0.6/0.2  lr 3e-05  wd 0.01  ls 0.2
+09:45:49  [sweep3 ]  72.53 +- 1.17  ep 141.4  seed 0    2048/32  drop 0.2/0.6/0.2  lr 3e-05  wd 0.1  ls 0.2
+09:45:49  [sweep3 ]  72.20 +- 1.07  ep 136.8  seed 1    2048/32  drop 0.2/0.6/0.2  lr 3e-05  wd 0.1  ls 0.2
+09:45:49  [sweep3 ]  72.54 +- 1.41  ep 150.0  seed 2    2048/32  drop 0.2/0.6/0.2  lr 3e-05  wd 0.1  ls 0.2
+09:45:49  [sweep3 ]  70.95 +- 0.96  ep  78.4  seed 0    2048/32  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0
+09:45:49  [sweep3 ]  70.47 +- 1.36  ep  74.4  seed 1    2048/32  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0
+09:45:49  [sweep3 ]  70.80 +- 1.66  ep  71.4  seed 2    2048/32  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0
+09:45:49  [sweep3 ]  71.42 +- 1.09  ep 120.0  seed 0    2048/32  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0.05
+09:45:49            group of 40 models: 187 epochs in 270 s
+09:49:09  [sweep3 ]  71.46 +- 0.96  ep 112.0  seed 1    2048/32  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0.05
+09:49:09  [sweep3 ]  71.40 +- 1.25  ep 102.6  seed 2    2048/32  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0.05
+09:49:09  [sweep3 ]  71.91 +- 0.76  ep 117.2  seed 0    2048/32  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0.1
+09:49:09  [sweep3 ]  71.94 +- 1.31  ep 141.0  seed 1    2048/32  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0.1
+09:49:09  [sweep3 ]  72.06 +- 1.11  ep 137.0  seed 2    2048/32  drop 0.2/0.6/0.2  lr 3e-05  wd 0  ls 0.1
+09:49:09            group of 25 models: 202 epochs in 200 s
+09:49:09  deadline reached
+09:49:09  After sweep 3: best 72.42    2048/32  drop 0.2/0.6/0.2  lr 3e-05  wd 0.1  ls 0.2
+09:49:09  Done after 4.67 h. 541 runs in /mnt/c/Users/tonyx/OneDrive/School/cs423/assignments/cpsc_423_A2/Further Wark/hparam_search_mean/roberta/trials.jsonl

@@ -1,0 +1,2 @@
+qwen3_4b_2048 MLP, best                  CV 82.43  test 78.07 +- 0.19  10-seed ensemble 78.11
+qwen3_4b_2048 MLP, best 1 hidden layer   CV 82.31  test 77.59 +- 0.26  10-seed ensemble 78.11

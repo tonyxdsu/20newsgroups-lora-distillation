@@ -1,0 +1,14 @@
+roberta_cls_20ng             best std C=0.00316: CV 70.80 | test (100%) 67.23 | test (90%) 66.85 | 131 s
+roberta_mean_20ng            best std C=0.00562: CV 70.03 | test (100%) 66.13 | test (90%) 65.63 | 157 s
+modernbert_cls_20ng          best raw C=0.178: CV 59.41 | test (100%) 57.26 | test (90%) 56.74 | 225 s
+modernbert_mean_20ng         best raw C=0.1: CV 68.62 | test (100%) 64.92 | test (90%) 64.89 | 156 s
+roberta_cls_sports           best raw C=5.62: CV 91.97 | test (100%) 91.63 | test (90%) 91.12 | 1 s
+roberta_mean_sports          best std C=0.01: CV 90.35 | test (100%) 89.83 | test (90%) 89.83 | 1 s
+modernbert_cls_sports        best raw C=0.178: CV 80.96 | test (100%) 78.51 | test (90%) 78.25 | 1 s
+modernbert_mean_sports       best std C=0.00178: CV 88.56 | test (100%) 88.16 | test (90%) 88.16 | 1 s
+qwen3_0.6b_last_sports       best std C=0.00316: CV 93.17 | test (100%) 92.02 | test (90%) 91.89 | 1 s
+qwen3_0.6b_last_20ng         best raw C=0.00316: CV 77.15 | test (100%) 73.42 | test (90%) 73.19 | 114 s
+qwen3_4b_last_20ng           best raw C=0.00178: CV 81.31 | test (100%) 77.39 | test (90%) 77.06 | 191 s
+qwen3_4b_last_sports         best raw C=0.000316: CV 94.45 | test (100%) 95.24 | test (90%) 95.24 | 1 s
+qwen3_4b_2048_last_20ng      best raw C=0.001: CV 81.49 | test (100%) 77.69 | test (90%) 77.45 | 179 s
+qwen3_4b_2048_instrB_last_20ng best std C=0.01: CV 82.14 | test (100%) 77.68 | test (90%) 77.31 | 148 s

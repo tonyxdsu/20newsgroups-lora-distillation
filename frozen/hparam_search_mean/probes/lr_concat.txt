@@ -1,0 +1,12 @@
+qwen3_4b_2048_last_20ng.npz + qwen3_0.6b_last_20ng.npz + roberta_cls_20ng.npz + modernbert_mean_20ng.npz (5120-d)
+  C=0.001  CV 81.81  folds [80.45 80.85 81.66 82.92 83.19]
+  C=0.003  CV 81.94  folds [80.54 80.94 82.06 83.01 83.15]
+  C=0.01   CV 81.83  folds [80.45 81.12 82.06 82.65 82.88]
+qwen3_4b_2048_instrB_last_20ng.npz + qwen3_0.6b_last_20ng.npz + roberta_cls_20ng.npz + modernbert_mean_20ng.npz (5120-d)
+  C=0.001  CV 82.24  folds [80.54 81.34 82.11 83.1  84.09]
+  C=0.003  CV 82.44  folds [80.68 81.93 82.51 82.97 84.14]
+  C=0.01   CV 82.30  folds [80.86 81.66 82.47 83.01 83.51]
+qwen3_4b_2048_instrB_last_20ng.npz + qwen3_4b_2048_last_20ng.npz (5120-d)
+  C=0.001  CV 82.20  folds [80.59 81.79 82.47 82.79 83.37]
+  C=0.003  CV 82.32  folds [81.04 81.03 83.1  83.06 83.37]
+  C=0.01   CV 82.28  folds [81.35 81.21 83.06 83.24 82.56]

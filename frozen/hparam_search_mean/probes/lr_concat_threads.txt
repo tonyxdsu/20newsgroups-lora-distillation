@@ -1,0 +1,8 @@
+qwen3_4b_2048_instrB_last_20ng.npz + qwen3_0.6b_last_20ng.npz + roberta_cls_20ng.npz + modernbert_mean_20ng.npz (5120-d, thread-grouped folds)
+  C=0.0001 CV 79.13  folds [78.91 78.32 79.73 81.25 77.42]
+  C=0.0003 CV 79.79  folds [80.17 78.86 80.32 81.57 78.05]
+  C=0.001  CV 79.73  folds [80.26 79.72 80.   80.8  77.87]
+qwen3_4b_2048_instrB_last_20ng.npz (2560-d, thread-grouped folds)
+  C=0.0001 CV 78.93  folds [79.18 78.5  78.83 80.98 77.15]
+  C=0.0003 CV 79.34  folds [79.22 79.09 79.14 81.52 77.74]
+  C=0.001  CV 79.87  folds [80.13 79.59 79.77 81.57 78.28]

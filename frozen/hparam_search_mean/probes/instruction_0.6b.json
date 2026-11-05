@@ -1,0 +1,38 @@
+{
+ "A: Qwen's MTEB 20NG prompt (current)": {
+  "cv": {
+   "0.001": 75.86,
+   "0.003": 76.87,
+   "0.01": 77.16
+  },
+  "best": 77.16,
+  "instruction_tokens": 17
+ },
+ "B: classification prompt": {
+  "cv": {
+   "0.001": 76.6,
+   "0.003": 77.65,
+   "0.01": 77.69
+  },
+  "best": 77.69,
+  "instruction_tokens": 26
+ },
+ "C: classification + the 20 newsgroup names": {
+  "cv": {
+   "0.001": 75.52,
+   "0.003": 76.47,
+   "0.01": 76.88
+  },
+  "best": 76.88,
+  "instruction_tokens": 126
+ },
+ "D: no instruction": {
+  "cv": {
+   "0.001": 76.75,
+   "0.003": 77.04,
+   "0.01": 76.27
+  },
+  "best": 77.04,
+  "instruction_tokens": 0
+ }
+}

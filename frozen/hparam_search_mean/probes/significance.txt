@@ -1,0 +1,16 @@
+512, A, LR (random-fold tuning)    test 77.38
+512, A, LR (grouped tuning)        test 77.68
+2048, A, LR                        test 77.67
+2048, B, LR (random-fold tuning)   test 77.72
+2048, B, LR (grouped tuning)       test 78.06
+2048, A, MLP ensemble              test 78.11
+2048, B, MLP ensemble              test 78.97
+
+512, A, LR (grouped tuning) vs. 512, A, LR (random-fold tuning): +0.30 points (171 vs. 149 messages right only in one), p = 0.24
+2048, B, LR (grouped tuning) vs. 2048, B, LR (random-fold tuning): +0.34 points (208 vs. 183 messages right only in one), p = 0.22
+2048, A, LR vs. 512, A, LR (random-fold tuning): +0.28 points (81 vs. 60 messages right only in one), p = 0.092
+2048, B, LR (grouped tuning) vs. 2048, A, LR: +0.39 points (262 vs. 233 messages right only in one), p = 0.21
+2048, A, MLP ensemble vs. 2048, A, LR: +0.45 points (178 vs. 145 messages right only in one), p = 0.075
+2048, B, MLP ensemble vs. 2048, B, LR (grouped tuning): +0.91 points (158 vs. 91 messages right only in one), p = 2.6e-05
+2048, B, MLP ensemble vs. 2048, A, MLP ensemble: +0.85 points (267 vs. 204 messages right only in one), p = 0.0042
+2048, B, MLP ensemble vs. 2048, A, LR: +1.30 points (318 vs. 222 messages right only in one), p = 4.2e-05

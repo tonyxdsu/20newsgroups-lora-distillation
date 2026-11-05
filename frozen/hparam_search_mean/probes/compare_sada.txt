@@ -1,0 +1,20 @@
+LoRA Qwen3-8B on all 7,532 posts: 76.31 (18 of the 162 empty posts right)
+Ours on all 7,532 posts, every empty post counted wrong: 77.27
+  LoRA Qwen3-8B (fine-tuned)        7370 posts: theirs 77.75, ours 78.97 (+1.22; 434 vs. 344 right only in one, McNemar p = 0.0014)
+Their 500-post LLM sample: the first 500 test posts, 6 of them empty
+  ComplementNB                     all 500 posts: 71.8
+  ComplementNB                       494 posts: theirs 72.47, ours 77.53 (+5.06; 58 vs. 33 right only in one, McNemar p = 0.011)
+  LogisticRegression               all 500 posts: 67.6
+  LogisticRegression                 494 posts: theirs 68.42, ours 77.53 (+9.11; 74 vs. 29 right only in one, McNemar p = 1.1e-05)
+  qwen3-small-zeroshot             all 500 posts: 71.8
+  qwen3-small-zeroshot               494 posts: theirs 72.67, ours 77.53 (+4.86; 58 vs. 34 right only in one, McNemar p = 0.016)
+  qwen3-small-fewshot              all 500 posts: 73.8
+  qwen3-small-fewshot                494 posts: theirs 74.70, ours 77.53 (+2.83; 45 vs. 31 right only in one, McNemar p = 0.14)
+  qwen3-frontier-zeroshot          all 500 posts: 66.4
+  qwen3-frontier-zeroshot            494 posts: theirs 67.21, ours 77.53 (+10.32; 71 vs. 20 right only in one, McNemar p = 7.2e-08)
+  gpt-oss-zeroshot                 all 500 posts: 69.2
+  gpt-oss-zeroshot                   494 posts: theirs 70.04, ours 77.53 (+7.49; 70 vs. 33 right only in one, McNemar p = 0.00034)
+  glm-5-zeroshot                   all 500 posts: 72.6
+  glm-5-zeroshot                     494 posts: theirs 73.48, ours 77.53 (+4.05; 51 vs. 31 right only in one, McNemar p = 0.035)
+  kimi-zeroshot                    all 500 posts: 76.4
+  kimi-zeroshot                      494 posts: theirs 77.33, ours 77.53 (+0.20; 37 vs. 36 right only in one, McNemar p = 1)

@@ -1,0 +1,2 @@
+modernbert MLP, best                  CV 70.92  test 66.28 +- 0.18
+modernbert MLP, best 1 hidden layer   CV 70.64  test 66.26 +- 0.14

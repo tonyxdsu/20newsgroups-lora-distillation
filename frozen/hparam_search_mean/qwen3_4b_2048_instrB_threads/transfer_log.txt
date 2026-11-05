@@ -1,0 +1,17 @@
+07:16:01  ../qwen3_4b_2048_instrB_last_20ng.npz: (11096, 2560), thread-grouped folds
+07:17:34  [ref    ]  80.03 +- 1.25  ep  13.8  seed 0    2048/64  drop 0.2/0.7/0.5  lr 0.0001  wd 0.01  ls 0.1
+07:17:34  [ref    ]  80.06 +- 1.20  ep  16.4  seed 1    2048/64  drop 0.2/0.7/0.5  lr 0.0001  wd 0.01  ls 0.1
+07:17:34  [ref    ]  80.07 +- 1.31  ep  15.6  seed 2    2048/64  drop 0.2/0.7/0.5  lr 0.0001  wd 0.01  ls 0.1
+07:17:34            group of 15 models: 34 epochs in 90 s
+07:17:34  80.06    2048/64  drop 0.2/0.7/0.5  lr 0.0001  wd 0.01  ls 0.1
+07:19:11  ../qwen3_4b_2048_instrB_last_20ng.npz: (11096, 2560), thread-grouped folds
+07:26:13  [transfer]  80.07 +- 1.24  ep  83.0  seed 0    4096/64  drop 0.3/0.2/0.7  lr 1e-05  wd 0.1  ls 0.2
+07:26:13  [transfer]  80.10 +- 1.24  ep  91.4  seed 1    4096/64  drop 0.3/0.2/0.7  lr 1e-05  wd 0.1  ls 0.2
+07:26:13  [transfer]  80.10 +- 1.22  ep  90.6  seed 2    4096/64  drop 0.3/0.2/0.7  lr 1e-05  wd 0.1  ls 0.2
+07:26:13            group of 15 models: 128 epochs in 421 s
+07:26:45  [transfer]  79.63 +- 1.14  ep   5.4  seed 0       1024  drop 0.2/0.4/0.0  lr 0.0001  wd 0.01  ls 0.2
+07:26:45  [transfer]  79.94 +- 1.25  ep   5.6  seed 1       1024  drop 0.2/0.4/0.0  lr 0.0001  wd 0.01  ls 0.2
+07:26:45  [transfer]  79.63 +- 1.40  ep   7.0  seed 2       1024  drop 0.2/0.4/0.0  lr 0.0001  wd 0.01  ls 0.2
+07:26:45            group of 15 models: 20 epochs in 31 s
+07:26:45  80.09    4096/64  drop 0.3/0.2/0.7  lr 1e-05  wd 0.1  ls 0.2
+07:26:45  79.73       1024  drop 0.2/0.4/0.0  lr 0.0001  wd 0.01  ls 0.2

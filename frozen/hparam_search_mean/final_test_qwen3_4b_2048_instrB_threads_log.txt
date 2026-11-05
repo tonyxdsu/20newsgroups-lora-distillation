@@ -1,0 +1,2 @@
+qwen3_4b_2048_instrB_threads MLP, best                  CV 80.25  test 78.80 +- 0.22  10-seed ensemble 78.97
+qwen3_4b_2048_instrB_threads MLP, best 1 hidden layer   CV 80.02  test 78.81 +- 0.30  10-seed ensemble 78.94

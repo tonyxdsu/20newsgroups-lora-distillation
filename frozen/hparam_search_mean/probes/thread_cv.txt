@@ -1,0 +1,30 @@
+train: 11096 posts in 5395 threads; 68% of posts share a thread
+random folds: 65% of dev posts have a thread in their fold's training part
+by thread folds: 0% of dev posts have a thread in their fold's training part
+test: 32% of test posts have a thread in train
+A random    raw C=0.0003 CV 80.82  folds [79.59 79.77 81.21 81.79 81.75]
+A random    raw C=0.001  CV 81.49  folds [80.63 80.53 81.7  81.97 82.6 ]
+A random    raw C=0.003  CV 81.25  folds [80.72 80.31 81.84 81.75 81.61]
+A random    std C=0.003  CV 81.41  folds [80.41 80.44 81.75 81.84 82.6 ]
+A random    std C=0.01   CV 81.20  folds [80.63 80.04 81.88 81.61 81.84]
+A random    std C=0.03   CV 80.93  folds [80.27 79.86 81.88 81.25 81.39]
+A by thread raw C=0.0003 CV 78.73  folds [79.   78.64 78.33 80.08 77.6 ]
+A by thread raw C=0.001  CV 78.80  folds [79.5  79.04 78.29 80.04 77.15]
+A by thread raw C=0.003  CV 78.29  folds [78.77 78.64 78.2  79.72 76.12]
+A by thread std C=0.003  CV 78.80  folds [79.27 78.77 78.56 80.04 77.38]
+A by thread std C=0.01   CV 78.22  folds [78.95 78.41 78.02 79.54 76.16]
+A by thread std C=0.03   CV 77.58  folds [78.86 77.87 76.58 79.36 75.21]
+B random    raw C=0.0003 CV 81.79  folds [80.36 80.85 82.24 82.38 83.1 ]
+B random    raw C=0.001  CV 82.06  folds [80.36 81.25 82.83 82.51 83.33]
+B random    raw C=0.003  CV 81.94  folds [80.81 80.31 83.28 82.79 82.51]
+B random    std C=0.003  CV 81.92  folds [80.09 81.07 82.97 82.65 82.83]
+B random    std C=0.01   CV 82.13  folds [80.77 80.76 83.33 82.92 82.88]
+B random    std C=0.03   CV 81.86  folds [80.59 80.58 82.88 82.79 82.47]
+B by thread raw C=0.0003 CV 79.78  folds [80.44 79.45 79.5  81.34 78.14]
+B by thread raw C=0.001  CV 79.36  folds [80.26 79.13 78.56 81.3  77.56]
+B by thread raw C=0.003  CV 78.78  folds [80.17 78.86 77.52 80.35 76.97]
+B by thread std C=0.003  CV 79.43  folds [80.17 79.36 78.74 81.12 77.74]
+B by thread std C=0.01   CV 78.97  folds [80.53 78.77 77.75 80.62 77.15]
+B by thread std C=0.03   CV 78.51  folds [79.81 78.41 77.52 80.35 76.43]
+random folds: best A (False, 0.001) 81.49, best B (True, 0.01) 82.13; B - A +0.64, B better on 5/5
+by thread folds: best A (False, 0.001) 78.80, best B (False, 0.0003) 79.78; B - A +0.97, B better on 5/5

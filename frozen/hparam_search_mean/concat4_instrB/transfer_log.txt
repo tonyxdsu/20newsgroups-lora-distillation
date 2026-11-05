@@ -1,0 +1,6 @@
+07:02:57  ../qwen3_4b_2048_instrB_last_20ng.npz + ../qwen3_0.6b_last_20ng.npz + ../roberta_cls_20ng.npz + ../modernbert_mean_20ng.npz: (11096, 5120)
+07:05:32  [ref    ]  82.92 +- 1.17  ep  22.2  seed 0    2048/64  drop 0.2/0.7/0.5  lr 0.0001  wd 0.01  ls 0.1
+07:05:32  [ref    ]  82.80 +- 1.17  ep  16.8  seed 1    2048/64  drop 0.2/0.7/0.5  lr 0.0001  wd 0.01  ls 0.1
+07:05:32  [ref    ]  82.95 +- 1.13  ep  21.2  seed 2    2048/64  drop 0.2/0.7/0.5  lr 0.0001  wd 0.01  ls 0.1
+07:05:32            group of 15 models: 41 epochs in 153 s
+07:05:32  82.89    2048/64  drop 0.2/0.7/0.5  lr 0.0001  wd 0.01  ls 0.1
