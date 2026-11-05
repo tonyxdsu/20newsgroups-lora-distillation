@@ -1,0 +1,41 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 147.27it/s]
+  epoch 1, step 50/625: loss 1.634, learning rate 5.3e-05  (1.3 min)
+  epoch 1, step 100/625: loss 0.774, learning rate 1.1e-04  (2.4 min)
+  epoch 1, step 150/625: loss 0.194, learning rate 1.6e-04  (3.7 min)
+  epoch 1, step 200/625: loss 1.078, learning rate 2.0e-04  (5.0 min)
+  epoch 1, step 250/625: loss 0.534, learning rate 1.9e-04  (6.2 min)
+  epoch 1, step 300/625: loss 0.212, learning rate 1.9e-04  (7.4 min)
+  epoch 1, step 350/625: loss 0.177, learning rate 1.8e-04  (8.7 min)
+  epoch 1, step 400/625: loss 0.666, learning rate 1.7e-04  (10.1 min)
+  epoch 1, step 450/625: loss 2.498, learning rate 1.7e-04  (11.6 min)
+  epoch 1, step 500/625: loss 0.202, learning rate 1.6e-04  (13.1 min)
+  epoch 1, step 550/625: loss 0.343, learning rate 1.6e-04  (14.2 min)
+  epoch 1, step 600/625: loss 0.315, learning rate 1.5e-04  (15.7 min)
+{"epoch": 1, "train_loss": 1.0243, "dev_loss": 0.7461, "dev_acc": 79.26, "seconds": 1010}
+  epoch 2, step 50/625: loss 0.106, learning rate 1.4e-04  (18.5 min)
+  epoch 2, step 100/625: loss 0.087, learning rate 1.4e-04  (19.9 min)
+  epoch 2, step 150/625: loss 0.094, learning rate 1.3e-04  (21.1 min)
+  epoch 2, step 200/625: loss 0.863, learning rate 1.2e-04  (22.5 min)
+  epoch 2, step 250/625: loss 0.126, learning rate 1.2e-04  (23.9 min)
+  epoch 2, step 300/625: loss 0.096, learning rate 1.1e-04  (25.1 min)
+  epoch 2, step 350/625: loss 0.520, learning rate 1.1e-04  (26.4 min)
+  epoch 2, step 400/625: loss 0.094, learning rate 1.0e-04  (27.7 min)
+  epoch 2, step 450/625: loss 0.412, learning rate 9.5e-05  (28.7 min)
+  epoch 2, step 500/625: loss 0.082, learning rate 8.9e-05  (30.0 min)
+  epoch 2, step 550/625: loss 0.033, learning rate 8.3e-05  (31.4 min)
+  epoch 2, step 600/625: loss 0.246, learning rate 7.7e-05  (32.5 min)
+{"epoch": 2, "train_loss": 0.3944, "dev_loss": 0.7473, "dev_acc": 80.7, "seconds": 2016}
+  epoch 3, step 50/625: loss 0.018, learning rate 6.8e-05  (34.9 min)
+  epoch 3, step 100/625: loss 0.000, learning rate 6.2e-05  (36.3 min)
+  epoch 3, step 150/625: loss 0.006, learning rate 5.6e-05  (37.6 min)
+  epoch 3, step 200/625: loss 0.122, learning rate 5.0e-05  (38.6 min)
+  epoch 3, step 250/625: loss 0.001, learning rate 4.4e-05  (39.9 min)
+  epoch 3, step 300/625: loss 0.037, learning rate 3.9e-05  (41.5 min)
+  epoch 3, step 350/625: loss 0.002, learning rate 3.3e-05  (42.7 min)
+  epoch 3, step 400/625: loss 0.005, learning rate 2.7e-05  (43.8 min)
+  epoch 3, step 450/625: loss 0.057, learning rate 2.1e-05  (44.9 min)
+  epoch 3, step 500/625: loss 0.000, learning rate 1.5e-05  (46.4 min)
+  epoch 3, step 550/625: loss 0.001, learning rate 8.9e-06  (47.7 min)
+  epoch 3, step 600/625: loss 0.481, learning rate 3.0e-06  (48.9 min)
+{"epoch": 3, "train_loss": 0.1088, "dev_loss": 1.0995, "dev_acc": 80.7, "seconds": 3020}
+done in 53.7 min, peak GPU memory 9.6 GB

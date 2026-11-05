@@ -1,0 +1,83 @@
+lora_r4_lr5e-4 seed 1
+Removed 218 empty documents from the train set. Before: 11314. After: 11096.
+Removed 162 empty documents from the test set. Before: 7532. After: 7370.
+Training part: 9,987 posts, dev: 1,109 posts
+/home/tonyxdsu/venvs/cs423/lib/python3.12/site-packages/tqdm/auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
+  from .autonotebook import tqdm as notebook_tqdm
+token ids: (16, 103)  attention mask: (16, 103)  labels: (16,)
+B = 0, so adding LoRA leaves <s> unchanged: True
+72 LoRA layers. 125.3M parameters, 1.27M of them trainable (1.0%): 0.66M in the A's and B's, 0.61M in the head
+learning rate 5e-04, 6250 steps in total, 375 of them warmup
+  epoch 1, step 100/625: loss 2.301, learning rate 1.3e-04
+  epoch 1, step 200/625: loss 0.982, learning rate 2.7e-04
+  epoch 1, step 300/625: loss 0.832, learning rate 4.0e-04
+  epoch 1, step 400/625: loss 1.606, learning rate 5.0e-04
+  epoch 1, step 500/625: loss 1.110, learning rate 4.9e-04
+  epoch 1, step 600/625: loss 0.316, learning rate 4.8e-04
+epoch 1: train loss 1.468  dev loss 0.892  dev acc 72.59  (49 s so far)
+  epoch 2, step 100/625: loss 0.608, learning rate 4.7e-04
+  epoch 2, step 200/625: loss 1.928, learning rate 4.6e-04
+  epoch 2, step 300/625: loss 1.622, learning rate 4.5e-04
+  epoch 2, step 400/625: loss 1.224, learning rate 4.4e-04
+  epoch 2, step 500/625: loss 0.113, learning rate 4.4e-04
+  epoch 2, step 600/625: loss 0.869, learning rate 4.3e-04
+epoch 2: train loss 0.872  dev loss 0.923  dev acc 73.13  (96 s so far)
+  epoch 3, step 100/625: loss 0.565, learning rate 4.2e-04
+  epoch 3, step 200/625: loss 0.883, learning rate 4.1e-04
+  epoch 3, step 300/625: loss 0.707, learning rate 4.0e-04
+  epoch 3, step 400/625: loss 1.173, learning rate 3.9e-04
+  epoch 3, step 500/625: loss 0.771, learning rate 3.8e-04
+  epoch 3, step 600/625: loss 0.539, learning rate 3.7e-04
+epoch 3: train loss 0.718  dev loss 0.860  dev acc 75.29  (145 s so far)
+  epoch 4, step 100/625: loss 0.173, learning rate 3.6e-04
+  epoch 4, step 200/625: loss 1.074, learning rate 3.6e-04
+  epoch 4, step 300/625: loss 0.678, learning rate 3.5e-04
+  epoch 4, step 400/625: loss 0.375, learning rate 3.4e-04
+  epoch 4, step 500/625: loss 0.415, learning rate 3.3e-04
+  epoch 4, step 600/625: loss 1.219, learning rate 3.2e-04
+epoch 4: train loss 0.590  dev loss 0.850  dev acc 77.10  (192 s so far)
+  epoch 5, step 100/625: loss 0.150, learning rate 3.1e-04
+  epoch 5, step 200/625: loss 0.099, learning rate 3.0e-04
+  epoch 5, step 300/625: loss 0.166, learning rate 2.9e-04
+  epoch 5, step 400/625: loss 0.306, learning rate 2.9e-04
+  epoch 5, step 500/625: loss 0.228, learning rate 2.8e-04
+  epoch 5, step 600/625: loss 0.092, learning rate 2.7e-04
+epoch 5: train loss 0.473  dev loss 1.046  dev acc 76.01  (240 s so far)
+  epoch 6, step 100/625: loss 0.157, learning rate 2.6e-04
+  epoch 6, step 200/625: loss 0.015, learning rate 2.5e-04
+  epoch 6, step 300/625: loss 0.099, learning rate 2.4e-04
+  epoch 6, step 400/625: loss 0.019, learning rate 2.3e-04
+  epoch 6, step 500/625: loss 0.822, learning rate 2.2e-04
+  epoch 6, step 600/625: loss 0.315, learning rate 2.1e-04
+epoch 6: train loss 0.370  dev loss 1.100  dev acc 77.10  (291 s so far)
+  epoch 7, step 100/625: loss 0.972, learning rate 2.0e-04
+  epoch 7, step 200/625: loss 0.001, learning rate 2.0e-04
+  epoch 7, step 300/625: loss 0.040, learning rate 1.9e-04
+  epoch 7, step 400/625: loss 0.016, learning rate 1.8e-04
+  epoch 7, step 500/625: loss 0.052, learning rate 1.7e-04
+  epoch 7, step 600/625: loss 0.001, learning rate 1.6e-04
+epoch 7: train loss 0.284  dev loss 1.222  dev acc 76.38  (339 s so far)
+  epoch 8, step 100/625: loss 0.002, learning rate 1.5e-04
+  epoch 8, step 200/625: loss 0.038, learning rate 1.4e-04
+  epoch 8, step 300/625: loss 0.546, learning rate 1.3e-04
+  epoch 8, step 400/625: loss 0.572, learning rate 1.3e-04
+  epoch 8, step 500/625: loss 0.288, learning rate 1.2e-04
+  epoch 8, step 600/625: loss 0.069, learning rate 1.1e-04
+epoch 8: train loss 0.215  dev loss 1.322  dev acc 76.92  (386 s so far)
+  epoch 9, step 100/625: loss 0.038, learning rate 9.8e-05
+  epoch 9, step 200/625: loss 0.009, learning rate 8.9e-05
+  epoch 9, step 300/625: loss 0.073, learning rate 8.1e-05
+  epoch 9, step 400/625: loss 0.003, learning rate 7.2e-05
+  epoch 9, step 500/625: loss 0.517, learning rate 6.4e-05
+  epoch 9, step 600/625: loss 0.127, learning rate 5.5e-05
+epoch 9: train loss 0.147  dev loss 1.404  dev acc 76.74  (434 s so far)
+  epoch 10, step 100/625: loss 0.002, learning rate 4.5e-05
+  epoch 10, step 200/625: loss 0.074, learning rate 3.6e-05
+  epoch 10, step 300/625: loss 0.002, learning rate 2.8e-05
+  epoch 10, step 400/625: loss 0.000, learning rate 1.9e-05
+  epoch 10, step 500/625: loss 0.004, learning rate 1.1e-05
+  epoch 10, step 600/625: loss 0.001, learning rate 2.1e-06
+epoch 10: train loss 0.108  dev loss 1.447  dev acc 77.28  (484 s so far)
+Using epoch 10 (highest dev accuracy). Peak GPU memory: 5.1 GB
+Saved probs/lora_r4_lr5e-4_seed1_acc_{dev,test}.npy and added this run to sweep.jsonl
+Test not scored (SCORE_TEST = False)
