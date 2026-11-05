@@ -7,4 +7,4 @@ for s in 1 2; do
   $PY sweep.py --name r_lr2e-5 $R --seed $s > sweep_logs/r_lr2e-5_seed$s.log 2>&1
 done
 ~/venvs/cs423/bin/jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.kernel_name=cs423 \
-  --ExecutePreprocessor.timeout=-1 "Fine-tuned Roberta.ipynb" > sweep_logs/notebook.log 2>&1
+  --ExecutePreprocessor.timeout=-1 "../fine-tuned/Fine-tuned Roberta.ipynb" > sweep_logs/notebook.log 2>&1
